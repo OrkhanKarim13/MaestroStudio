@@ -8,7 +8,7 @@ import { getAuth } from "firebase/auth"
 export const useFirebase = () => {
 
   const config = useRuntimeConfig()
-  
+
   const firebaseConfig = {
     apiKey: config.public.FIREBASE_API_KEY,
     authDomain: config.public.FIREBASE_AUTH_DOMAIN,
@@ -21,8 +21,8 @@ export const useFirebase = () => {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const firestore = getFirestore(app);
+const db = getFirestore(app);
 const auth = getAuth(app)
 
-return { firestore, auth }
+return { db, auth }
 }

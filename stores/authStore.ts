@@ -3,14 +3,19 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 export const useAuthStore = defineStore('authStore', () => {
   const { auth } = useFirebase()
-  const user = ref(null)
+  const userStore = useUserStore()
+
+  const authUser = ref(null)
+
 
   async function registerWithEmailAndPassword({email, password}) {
     try {
       console.log(email, password);
+      const username = 'asgar'
       
       const userCredential = await createUserWithEmailAndPassword(auth, email, password)
       console.log(userCredential);
+      await userStore.createUser({ id: userCredential.user.uid, item: { email, username} })
       
     } catch (error) {
       const errorCode = error.code;
@@ -20,7 +25,7 @@ export const useAuthStore = defineStore('authStore', () => {
   }
 
   return {
-    user,
+    authUser,
     registerWithEmailAndPassword
   }
 })
