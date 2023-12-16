@@ -1,13 +1,15 @@
 import { defineStore, acceptHMRUpdate } from 'pinia'
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 
 export const useAuthStore = defineStore('authStore', () => {
   const { auth } = useFirebase()
   const userStore = useUserStore()
+  const router = useRouter()
 
+  // STATE
   const authUser = ref(null)
 
-
+  // ACTIONS
   async function registerWithEmailAndPassword({email, password}) {
     try {
       console.log(email, password);
@@ -24,9 +26,23 @@ export const useAuthStore = defineStore('authStore', () => {
     }
   }
 
+  async function loginWithEmailAndPassword({ email, password }) {
+    try {
+      const response = await signInWithEmailAndPassword(auth, email, password)
+      console.log('responseee', response);
+
+      router.push({ name: 'admin' })
+      
+    } catch (error) {
+      console.log(error);
+      
+    }
+  }
+
   return {
     authUser,
-    registerWithEmailAndPassword
+    registerWithEmailAndPassword,
+    loginWithEmailAndPassword
   }
 })
 
