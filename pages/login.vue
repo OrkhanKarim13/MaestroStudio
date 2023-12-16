@@ -1,12 +1,19 @@
-<script setup>
-import { useAuthStore } from '@/stores/authStore.ts'
-
+<script setup lang="ts">
 const authStore = useAuthStore()
 
-const form = ref({
+interface formPayload {
+  email: String,
+  password: String
+}
+
+const form = ref<formPayload>({
   email: '',
   password: ''
 })
+
+function handleSubmit() {
+  authStore.loginWithEmailAndPassword(form.value)
+}
 
 
 </script>
@@ -25,7 +32,7 @@ const form = ref({
             <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
               Login to your account
             </h1>
-            <form class="space-y-4 md:space-y-6" @submit.prevent="authStore.loginWithEmailAndPassword(form)">
+            <form class="space-y-4 md:space-y-6" @submit.prevent="handleSubmit">
               <div>
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
                 <input type="email" name="email" id="email" v-model="form.email"
