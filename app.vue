@@ -1,21 +1,15 @@
-<script setup lang="ts">
+<script setup>
+
 const authStore = useAuthStore()
 
-interface registerPayload {
-  email: string,
-  password: string
-}
-const user = {
-  email: 'test@mail.com',
-  password: 'testpass'
-}
 </script>
 
 <template>
-  <div>
-    <h1 class="m-6 text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <button @click="authStore.registerWithEmailAndPassword(user)">register</button>
+  <div class="p-4 flex w-full border justify-between">
+    <p v-if="authStore.authUser">Hi, {{ authStore.authUser.email }}</p>
+    <div class="flex items-center gap-4">
+      <button @click="authStore.logout" class="border px-2 py-1 rounded bg-gray-100">Log out</button>
+    </div>
   </div>
+  <NuxtPage />
 </template>
