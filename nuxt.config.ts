@@ -13,8 +13,18 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", '@pinia/nuxt'],
+  modules: ["@nuxtjs/tailwindcss", '@pinia/nuxt', '@nuxtjs/i18n'],
   pinia: {
     storesDirs: ['./stores/**'],
+  },
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', iso: 'en-US', file: 'en.js' },
+      { code: 'ru', name: 'Русский', iso: 'ru-RU', file: 'ru.js' },
+      { code: 'az', name: 'Azərbaycanca', iso: 'az-AZ', file: 'az.js' },
+    ],
+    lazy: true,
+    langDir: 'translation',
+    defaultLocale: 'az',
   },
 })
