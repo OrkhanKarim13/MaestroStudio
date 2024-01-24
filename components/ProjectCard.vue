@@ -1,6 +1,6 @@
 <template>
   <div class="rounded-md bg-white px-4 py-6 md:p-12 flex flex-col items-start justify-center  gap-6">
-    <img class="w-full mx-auto" src="../assets/images/Frame 12.svg" alt="image">
+    <img class="w-full mx-auto" src="~/assets/images/Frame 12.svg" alt="image">
     <div class="flex flex-col items-start justify-center mx-auto gap-3">
       <h4 class="text-2xl text-black font-bold">EVOLVING ONE OF THE WORLD'S
         MOST ICONIC FOOTBALL CLUBS</h4>
