@@ -1,4 +1,13 @@
-<script setup>
+<template>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+</template>
+
+
+
+
+<!-- <script setup>
 
 const authStore = useAuthStore()
 
@@ -12,4 +21,4 @@ const authStore = useAuthStore()
     </div>
   </div>
   <NuxtPage />
-</template>
+</template> -->
