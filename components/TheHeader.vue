@@ -1,3 +1,11 @@
+<script lang="ts" setup>
+  const menu = ref(false)
+  const { getLinks } = useLinks()
+  const links = getLinks({ names: ['about', 'services', 'projects', 'blogs', 'contact'] });
+
+</script>
+
+
 <template>
   <div
     class=" text-black w-full bg-white p-4 lg:p-9"
@@ -7,7 +15,7 @@
       
         <!-- Title -->
         <div class="w-[209px]">
-              <NuxtLink to="/">
+              <NuxtLink :to="localePath({name: 'index'})">
                   <img class="w-full h-full" src="../assets/images/logo-maestro-black.svg" alt="logo">
               </NuxtLink>
           </div>
@@ -17,16 +25,8 @@
       <!-- Desktop nav list -->
       <nav class=" hidden md:border md:border-blue-500 md:rounded-full sm:flex items-center">
         <ul class="flex">
-          <li
-            v-for="(item, index) in items"
-            :key="index"
-          >
-            <a
-              :href="item.href"
-              class="px-8 py-4 block text-black font-aspekta"
-            >
-              {{ item.title }}
-            </a>
+          <li class="px-8 py-4 block text-black font-aspekta uppercase" v-for="link in links">
+            <NuxtLink :to="localePath({ name: link.name})">{{ link.title.en }}</NuxtLink>
           </li>
         </ul>
       </nav>
@@ -43,49 +43,10 @@
       <!-- Mobile nav list -->
       <nav v-show="menu" class="w-full">
         <ul class="flex flex-col text-center">
-        <li
-          v-for="(item, index) in items"
-          :key="index"
-        >
-          <a
-            :href="item.href"
-            class="pb-2 text-black block"
-          >
-            {{ item.title }}
-          </a>
-        </li>
+          <li v-for="link in links" :key="link.name" class="px-8 py-4 text-black hover:text-blue-700">
+            <NuxtLink :to="localePath({ name: link.name })">{{ link.title.en }}</NuxtLink>
+          </li>
       </ul>
     </nav>
   </div>
 </template>
-<script>
-export default {
-  data() {
-    return {
-      menu: false,
-      items: [
-        {
-          title: 'ABOUT',
-          href: '/about'
-        },
-        {
-          title: 'SERVICES',
-          href: '/services'
-        },
-        {
-          title: 'PROJECTS',
-          href: '/rojects'
-        },
-        {
-          title: 'BLOG',
-          href: '/blog'
-        },
-        {
-          title: 'CONTACT',
-          href: '/contact'
-        },
-      ]
-    }
-  }
-}
-</script>
