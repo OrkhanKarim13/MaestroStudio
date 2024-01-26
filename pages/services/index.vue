@@ -59,7 +59,7 @@
                       Digital strategy</p>
               </div>
               <div class=" flex flex-col items-start justify-center gap-5 ">
-                  <h3 class=" text-white text-4xl font-bold leading-11">DEFINE AMBITIONS</h3>
+                  <h3 class="text-white text-4xl font-bold leading-11">DEFINE AMBITIONS</h3>
                   <a class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]" href="/">Please Apply</a>
               </div>
           </div>
