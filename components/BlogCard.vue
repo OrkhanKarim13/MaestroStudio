@@ -19,7 +19,8 @@
       <img class="w-full " src="~/assets/images/Card-cover.svg" alt="image">
     </div>
     <div class="w-full px-6 py-4 flex items-center justify-between rounded-b-md  bg-white">
-      <a class="uppercase md:text-lg  text-md font-semibold cursor-pointer" href="/">view All</a>
+      <NuxtLink :to="localePath({ name: 'blogs-blogSlug', params: { blogSlug: 'test' } })" class="uppercase md:text-lg  text-md font-semibold cursor-pointer">
+        View</NuxtLink>
       <img src="~/assets/images/Arrow 1.svg" alt="">
     </div>
   </div>
