@@ -15,12 +15,13 @@
     "@nuxtjs/i18n": "^8.0.0",
     "@nuxtjs/tailwindcss": "^6.9.4",
     "eslint": "^8.53.0",
-    "nuxt": "^3.8.1",
+    "nuxt": "^3.11.2",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
-    "firebase": "^10.6.0"
+    "firebase": "^10.6.0",
+    "pinia": "^2.1.7"
   }
 }
