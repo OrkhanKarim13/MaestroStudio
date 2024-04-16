@@ -31,7 +31,7 @@ export const useAuthStore = defineStore('authStore', () => {
       const { user } = await signInWithEmailAndPassword(auth, email, password)
       console.log('responseee', user);
       authUser.value = user
-      router.push({ name: 'admin' })
+      router.push('/admin')
       
     } catch (error) {
       console.log(error);
