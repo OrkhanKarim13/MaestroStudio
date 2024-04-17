@@ -1,4 +1,8 @@
 <script setup>
+definePageMeta({
+  layout: 'plain'
+})
+
 import { useAuthStore } from '@/stores/authStore.ts'
 
 const authStore = useAuthStore()

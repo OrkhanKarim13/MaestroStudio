@@ -1,4 +1,7 @@
 <script setup lang="ts">
+definePageMeta({
+  layout: 'plain'
+})
 const authStore = useAuthStore()
 
 interface formPayload {
@@ -14,7 +17,6 @@ const form = ref<formPayload>({
 function handleSubmit() {
   authStore.loginWithEmailAndPassword(form.value)
 }
-
 
 </script>
 
