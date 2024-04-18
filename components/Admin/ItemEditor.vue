@@ -335,7 +335,7 @@ async function save() {
     router.push(route)
     addNotification({ message: 'Successfully updated' })
   } else {
-    const res = await store.createItem({ form: form.value, resource: props.resource })
+    const res = await store.createItem({ item: form.value, resource: props.resource })
     if (!res) return
     emit('closeEditor')
     addNotification({ message: 'Successfully created' })
