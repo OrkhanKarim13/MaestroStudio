@@ -126,28 +126,28 @@
             <div class="w-full">
               <label for="content-en" class="block text-sm font-medium leading-6 text-gray-900">Content en</label>
               <div class="mt-2">
-                <!-- <client-only>
-                  <AdminRichEditor v-model.lazy="form.content.en" />
-                </client-only> -->
-                <textarea v-model="form.content.en" id="content-en" name="content-en" rows="5" class="block mt-1 border-red-500 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                <ClientOnly>
+                  <RichEditor v-model.lazy="form.content.en" />
+                </ClientOnly>
+                <!-- <textarea v-model="form.content.en" id="content-en" name="content-en" rows="5" class="block mt-1 border-red-500 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea> -->
               </div>
             </div>
             <div class="w-full">
               <label for="content-az" class="block text-sm font-medium leading-6 text-gray-900">Content az</label>
               <div class="mt-2">
-                <!-- <client-only>
-                  <AdminRichEditor v-model.lazy="form.content.az" />
-                </client-only> -->
-                <textarea v-model="form.content.az" id="content-az" name="content-az" rows="5" class="block mt-1 border-red-500 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                <ClientOnly>
+                  <RichEditor v-model.lazy="form.content.az" />
+                </ClientOnly>
+                <!-- <textarea v-model="form.content.az" id="content-az" name="content-az" rows="5" class="block mt-1 border-red-500 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea> -->
               </div>
             </div>
             <div class="w-full">
               <label for="content-ru" class="block text-sm font-medium leading-6 text-gray-900">Content ru</label>
               <div class="mt-2">
-                <!-- <client-only>
+                <ClientOnly>
                   <AdminRichEditor v-model.lazy="form.content.ru" />
-                </client-only> -->
-                <textarea v-model="form.content.ru" id="content-ru" name="content-ru" rows="5" class="block mt-1 border-red-500 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                </ClientOnly>
+                <!-- <textarea v-model="form.content.ru" id="content-ru" name="content-ru" rows="5" class="block mt-1 border-red-500 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea> -->
               </div>
             </div>
           </div>
@@ -296,7 +296,7 @@
 </template>
 
 <script setup>
-import { useMainStore } from '~/stores/MainStore'
+import RichEditor from './RichEditor.vue';
 
 
 const localeRoute = useLocaleRoute()
