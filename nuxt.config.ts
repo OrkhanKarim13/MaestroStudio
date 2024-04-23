@@ -27,4 +27,9 @@ export default defineNuxtConfig({
     langDir: 'translation',
     defaultLocale: 'az',
   },
+  // vite: {
+  //   optimizeDeps: {
+  //     exclude: ['@ckeditor/ckeditor5-*'],
+  //   },
+  // }
 })

@@ -153,6 +153,8 @@ export const useMainStore = defineStore('mainStore', {
       await updateDoc(itemRef, item)
       const updatedItem = await getDoc(itemRef)
       upsert(this[resource], docToResource(updatedItem));
+
+      // we return value here in order to be valid for asyncData function
       return true
     },
     async deleteItem({ item, resource }) {
