@@ -8,6 +8,7 @@ export const useMainStore = defineStore('mainStore', {
       blogs: false
     },
     blogs: [],
+    blogCategories: [],
     blogObjectDefault: {
       createdAt: null,
       isEnabled: false,
@@ -21,6 +22,11 @@ export const useMainStore = defineStore('mainStore', {
         keywords: { en: '', az: '', ru: '' },
       },
     },
+    blogCategoryObjectDefault: {
+      createdAt: null,
+      isEnabled: false,
+      title: { en: '', az: '', ru: '' },
+    }
   }),
   getters: {
     getResourceFields: (state) => {
