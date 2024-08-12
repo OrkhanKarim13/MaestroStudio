@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "createdDate": "01.01.2024",
+      "title": "Aral Group",
+      "description": "Aral group” şirkəti Azərbaycanda təmir-tikinti sahəsində liderlərdən biridir. Əsası qoyulduqdan qısa müddət sonra ölkəmizin inşaat bazarına daxil olan şirkət gündən-günə Azərbaycanın gözəlliyinə öz tövhəsini verməkdədir.",
+      "cover_img": "/images/card-cover.svg"
+    },
+    {
+      "id": 2,
+      "createdDate": "02.01.2024",
+      "title": "İZZİDONE",
+      "description": "İZZİ,  insanların həyatını asanlaşdırmağa və peşəkar təcrübəyə dəyər əlavə etməyə inanan bir komanda tərəfindən yaradılmışdır. Platform, istifadəçilərə geniş bir mütəxəssis bazası təqdim edərək onların işlərini effektiv şəkildə həll etmələrinə kömək edir.",
+      "cover_img": "/images/card-cover.svg"
+    },
+    {
+      "id": 3,
+      "createdDate": "03.01.2024",
+      "title": "KARVAN-L",
+      "description": "KARVAN-L” şirkətlər qrupu Azərbaycanda fəaliyyət göstərən ən iri özəl istehsalat və ticarət müəssisələrindən biridir. Fəaliyyətə 1993-cü ildə kiçik şirkət kimi başlayıbdır. “KARVAN-L” şirkətlər qrupu Azərbaycan-da lak və boya məhsullarının istehsalı və idxalı üzrə ixtisaslaşmış ilk şirkətdir və «Ярославские краски» şirkətinin ilk rəsmi distribyutoru olmuşdur.",
+      "cover_img": "/images/card-cover.svg"
+    },
+    {
+      "id": 4,
+      "createdDate": "04.01.2024",
+      "title": "Konsept.az ",
+      "description": "Konsept.az xəbər saytıdır. Saytın məqsədi ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaqdır.",
+      "cover_img": "/images/card-cover.svg"
+    }
+  ]

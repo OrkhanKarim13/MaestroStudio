@@ -3,7 +3,8 @@
       <div class="bg-[#0047FF]  px-4 py-6 md:p-12 flex flex-col items-start justify-between  md:rounded-md">
           <div class="w-4/5  text-white text-3xl lg:text-6xl font-bold leading-11">Need a project estimate?
           </div>
-          <div class="my-12 flex items-center justify-center "><img src="../assets/images/Arrow 2.svg" alt="arrow">
+          <div class="my-12 flex items-center justify-center ">
+            <img src="@/assets/images/arraow_icon.svg" alt="arrow">
           </div>
           <div class="flex flex-col items-start justify-center gap-5">
               <p class="text-white text-lg w-2/3 font-normal">Drop us a line, and we provide you with a qualified

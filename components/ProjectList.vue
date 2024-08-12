@@ -1,16 +1,17 @@
-
 <template>
   <section class="md:mx-9 md:mb-6 bg-[#0047FF] px-4 py-6 lg:p-12 md:rounded-md">
     <div class="flex flex-col gap-10">
       <div class="w-full grid grid-cols-1 md:grid-cols-5 items-center justify-between gap-6">
-        <h2 class="md:col-span-4 text-white text-3xl font-bold leading-6 text-center md:text-left">Projects we provide</h2>
-        <NuxtLink :to="localePath({ name: 'projects' })" class="col-span-1 uppercase cursor-pointer  px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center ">
+        <h2 class="md:col-span-4 text-white text-3xl font-bold leading-6 text-center md:text-left">Projects we provide
+        </h2>
+        <NuxtLink :to="localePath({ name: 'projects' })"
+          class="col-span-1 uppercase cursor-pointer  px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center ">
           View all
         </NuxtLink>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:gap-6 gap-8">
-        <ProjectCard v-for="i in 4" />
+        <ProjectCard v-for="project in projects" :key="project.id" :project="project" />
         <!-- <div class="rounded-md bg-white px-4 py-6 md:p-12 flex flex-col items-start justify-center  gap-6">
           <img class="w-full mx-auto" src="../assets/images/Frame 12.svg" alt="image">
           <div class="flex flex-col items-start justify-center mx-auto gap-3">
@@ -59,3 +60,12 @@
     </div>
   </section>
 </template>
+
+
+<script setup>
+import getProjects from "@/public/projects.json"
+
+const projects=ref(getProjects)
+
+console.log("projects",projects)
+</script>
