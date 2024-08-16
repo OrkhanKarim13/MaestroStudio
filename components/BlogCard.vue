@@ -18,7 +18,7 @@
       <NuxtLink :to="localePath({ name: 'blogs-blogSlug', params: { blogSlug: 'test' } })"
         class="uppercase md:text-lg  text-md font-semibold cursor-pointer">
         View</NuxtLink>
-      <img src="~/assets/images/Arrow 1.svg" alt="">
+      <img src="~/assets/images/Arrow.svg" alt="arrow">
     </div>
   </div>
 </template>

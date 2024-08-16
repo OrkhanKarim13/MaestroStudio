@@ -2,7 +2,7 @@
   <section class="mx-9 mb-6 bg-[#0047FF] rounded-md p-14 ">
       <div class="grid grid-cols-1 md:grid-cols-5 gap-6 ">
           <div class="col-span-3 rounded-md">
-              <img class="rounded-md w-full object-cover h-[600px]" src="~/assets/images/Frame12.svg" alt="image">
+              <img class="rounded-md w-full object-cover h-[600px]" src="~/assets/images/services_img.svg" alt="image">
           </div>
           <div class="col-span-2 bg-[#0047FF] flex flex-col items-start justify-between  rounded-md">
               <h3 class=" text-white text-4xl leading-11">Setting brand and digital strategies that mobilise teams.
@@ -39,7 +39,7 @@
               </div>
           </div>
           <div class="col-span-3 rounded-md">
-              <img class="rounded-md w-full object-cover h-[600px]" src="~/assets/images/Frame12(1).svg" alt="image">
+              <img class="rounded-md w-full object-cover h-[600px]" src="~/assets/images/services_img2.svg" alt="image">
           </div>
       </div>
 
@@ -47,7 +47,7 @@
   <section class="mx-9 mb-6 bg-[#0047FF] rounded-md p-14 ">
       <div class="grid grid-cols-1 md:grid-cols-5 gap-6 ">
           <div class="col-span-3 rounded-md">
-              <img class="rounded-md w-full object-cover h-[600px]" src="~/assets/images/Frame12(3).svg" alt="image">
+              <img class="rounded-md w-full object-cover h-[600px]" src="~/assets/images/services_img3.svg" alt="image">
           </div>
           <div class="col-span-2  bg-[#0047FF]   flex flex-col items-start justify-between  rounded-md">
               <h3 class=" text-white text-4xl leading-11">Setting brand and digital strategies that mobilise teams.
@@ -84,7 +84,7 @@
               </div>
           </div>
           <div class="col-span-3  rounded-md">
-              <img class="rounded-md w-full object-cover h-[600px]" src="~/assets/images/Frame12(2).svg" alt="image">
+              <img class="rounded-md w-full object-cover h-[600px]" src="~/assets/images/services_img4.svg" alt="image">
           </div>
       </div>
   </section>
