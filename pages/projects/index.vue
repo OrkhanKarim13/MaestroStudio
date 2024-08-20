@@ -14,16 +14,31 @@
                         <nuxt-link to="projects/1" class="border border-black px-9 py-4 text-black rounded-full" >VIEW ALL</nuxt-link>
                 </div>
               </div> -->
-              <ProjectCard v-for="project in projects" :key="project" :project="project"/>
+              <!-- <ProjectCard v-for="project in projects" :key="project" :project="project"/> -->
+               <div v-for="project in projects" :key="project.id">
+                <ProjectCard :project="project"/>
+               </div>
       </div>
   </section>
   <AppForm/>
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue';
+import ProjectCard from '~/components/ProjectCard.vue';
+
+const projects = ref([]);
+
+onMounted(async () => {
+  const response = await fetch('public/projects.json');
+  projects.value = await response.json();
+});
+</script>
+<!-- <script setup>
 import getProjects from "@/public/projects.json"
 
 const projects=ref(getProjects)
 
 console.log("projects",projects.value)
-</script>
+</script> -->
+

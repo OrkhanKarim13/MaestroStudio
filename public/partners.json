@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "partner_img":"/images/image33.svg",
+        "description":"fkfkrfkskkfsm kdfmd",
+        "figure_img":"/images/Cylinder.svg"
+      },
+      {
+        "id":2,
+        "partner_img":"/images/image33.svg",
+        "description":"fkfkrfkskkfsm kdfmd",
+        "figure_img":"/images/Cone.svg"
+      },
+      {
+        "id":3,
+        "partner_img":"/images/image33.svg",
+        "description":"fkfkrfkskkfsm kdfmd",
+        "figure_img":"/images/Cube-2.svg"
+      },
+      {
+        "id":4,
+        "partner_img":"/images/image33.svg",
+        "description":"fkfkrfkskkfsm kdfmd",
+        "figure_img":"/images/pill.svg"
+      },
+      {
+        "id":5,
+        "partner_img":"/images/image33.svg",
+        "description":"fkfkrfkskkfsm kdfmd",
+        "figure_img":"/images/RoundCube.svg"
+      },
+      {
+        "id":6,
+        "partner_img":"/images/image33.svg",
+        "description":"fkfkrfkskkfsm kdfmd",
+        "figure_img":"/images/SuperToroid.svg"
+      },
+      {
+        "id":7,
+        "partner_img":"/images/image33.svg",
+        "description":"fkfkrfkskkfsm kdfmd",
+        "figure_img":"/images/Sphere.svg"
+      },
+      {
+        "id":8,
+        "partner_img":"/images/image33.svg",
+        "description":"fkfkrfkskkfsm kdfmd",
+        "figure_img":"/images/SuperToroid-2.svg"
+      }
+]

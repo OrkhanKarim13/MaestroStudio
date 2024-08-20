@@ -1,30 +1,54 @@
 [
-    {
-      "id": 1,
-      "createdDate": "01.01.2024",
-      "title": "Aral Group",
-      "description": "Aral group” şirkəti Azərbaycanda təmir-tikinti sahəsində liderlərdən biridir. Əsası qoyulduqdan qısa müddət sonra ölkəmizin inşaat bazarına daxil olan şirkət gündən-günə Azərbaycanın gözəlliyinə öz tövhəsini verməkdədir.",
-      "cover_img": "/images/card-cover.svg"
-    },
-    {
-      "id": 2,
-      "createdDate": "02.01.2024",
-      "title": "İZZİDONE",
-      "description": "İZZİ,  insanların həyatını asanlaşdırmağa və peşəkar təcrübəyə dəyər əlavə etməyə inanan bir komanda tərəfindən yaradılmışdır. Platform, istifadəçilərə geniş bir mütəxəssis bazası təqdim edərək onların işlərini effektiv şəkildə həll etmələrinə kömək edir.",
-      "cover_img": "/images/card-cover.svg"
-    },
-    {
-      "id": 3,
-      "createdDate": "03.01.2024",
-      "title": "KARVAN-L",
-      "description": "KARVAN-L” şirkətlər qrupu Azərbaycanda fəaliyyət göstərən ən iri özəl istehsalat və ticarət müəssisələrindən biridir. Fəaliyyətə 1993-cü ildə kiçik şirkət kimi başlayıbdır. “KARVAN-L” şirkətlər qrupu Azərbaycan-da lak və boya məhsullarının istehsalı və idxalı üzrə ixtisaslaşmış ilk şirkətdir və «Ярославские краски» şirkətinin ilk rəsmi distribyutoru olmuşdur.",
-      "cover_img": "/images/card-cover.svg"
-    },
-    {
-      "id": 4,
-      "createdDate": "04.01.2024",
-      "title": "Konsept.az ",
-      "description": "Konsept.az xəbər saytıdır. Saytın məqsədi ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaqdır.",
-      "cover_img": "/images/card-cover.svg"
-    }
-  ]
+  {
+    "id": 1,
+    "createdDate": "01.01.2024",
+    "title": "Aral Group",
+    "description": "Aral group” şirkəti Azərbaycanda təmir-tikinti sahəsində liderlərdən biridir. Əsası qoyulduqdan qısa müddət sonra ölkəmizin inşaat bazarına daxil olan şirkət gündən-günə Azərbaycanın gözəlliyinə öz tövhəsini verməkdədir.",
+    "cover_img": "/images/aral.png",
+    "background": "'Aral Group', Azərbaycanda təmir-tikinti sahəsində liderlərdən biri olaraq tanınan bir şirkəttir. Şirkət, əsasını qoyduqdan qısa bir müddət sonra Azərbaycanın inşaat bazarına daxil olmuş və ölkənin gözəlliyinə töhfə verərək adından söz etdirmişdir. Aral Group, inkişaf etmiş infrastruktur, keyfiyyətli tikinti materialları və peşəkar kadrlarla özünü fərqləndirir. ",
+    "objective": "'Aral Group'un əsas məqsədi, Azərbaycanın gözəlliyinə öz tövhəsini verməkdir. Şirkət, yaradılan layihələrlə ölkədə möhtəşəm tikinti və təmir işləri görərək mühiti dəyişdirməyə çalışır, müştərilərinin ehtiyaclarını başa düşərək, onlara mümkün olan ən yaxşı xidməti təqdim etməyə fokuslanır.",
+    "screen_img": "/images/aral-web-screen.png",
+    "screen_img_2": "/images/aral-web-screen-2.png",
+    "screen_img_3": "/images/aral-web-screen-3.png",
+    "screen_img_4": "/images/aral-web-screen-4.png"
+  },
+  {
+    "id": 2,
+    "createdDate": "02.01.2024",
+    "title": "İZZİDONE",
+    "description": "İZZİ şəxsi və məişət işləri ilə əlaqədar peşəkar axtarışında olanları təcrübəli mütəxəssislərlə birləşdirən platformadır.",
+    "cover_img": "/images/izzi.png",
+    "background": "'İZZİ',  insanların həyatını asanlaşdırmağa və peşəkar təcrübəyə dəyər əlavə etməyə inanan bir komanda tərəfindən yaradılmışdır. Platform, istifadəçilərə geniş bir mütəxəssis bazası təqdim edərək onların işlərini effektiv şəkildə həll etmələrinə kömək edir.",
+    "objective": "İZZİ-nin məqsədi istifadəsi asan, bütün cihazlarda əlçatan və sürətli onlayn platforma vasitəsilə insanlara məişət problemlərini həll etməyə kömək etməkdir. Startap insanlara məişət problemlərini ən qısa müddətdə və ən sərfəli qiymətlə həll edə biləcək uyğun icraçını seçməkdə kömək etməklə yanaşı, təmizlik, gözəllik, tədbirlərin təşkil edilməsi, usta xidmətləri və s. kimi bir sıra xidmətlər təklif edir.",
+    "screen_img": "/images/izzi-web-screen.png",
+    "screen_img_2": "/images/izzi-web-screen-2.png",
+    "screen_img_3": "/images/izzi-web-screen-3.png",
+    "screen_img_4": "/images/izzi-web-screen-4.png"
+  },
+  {
+    "id": 3,
+    "createdDate": "03.01.2024",
+    "title": "KARVAN-L",
+    "description": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etmək və sektorda lider mövqeyini gücləndirməkdir. Şirkət, müştərilərinə yüksək keyfiyyətli məhsullar təklif edərək onların ehtiyaclarını ən yaxşı şəkildə qarşılamağı hədəfləyir. ",
+    "cover_img": "/images/karvan.png",
+    "background": "'KARVAN-L' şirkətlər qrupu, Azərbaycanda fəaliyyət göstərən ən iri özəl istehsalat və ticarət müəssisələrindən biridir. Şirkət, 1993-cü ildə kiçik bir şirkət kimi fəaliyyətinə başlamışdır. 'KARVAN-L' şirkətlər qrupu, Azərbaycan-da lak və boya məhsullarının istehsalı və idxalı üzrə ixtisaslaşmış ilk şirkətdir və «Ярославские краски» şirkətinin ilk rəsmi distribyutoru olmuşdur.",
+    "objective": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etmək və sektorda lider mövqeyini gücləndirməkdir. Şirkət, müştərilərinə yüksək keyfiyyətli məhsullar təklif edərək onların ehtiyaclarını ən yaxşı şəkildə qarşılamağı hədəfləyir. ",
+    "screen_img": "/images/karvan-web-screen-2.png",
+    "screen_img_2": "/images/karvan-web-screen.png",
+    "screen_img_3": "/images/karvan-web-screen-3.png",
+    "screen_img_4": "/images/karvan-web-screen-4.png"
+  },
+  {
+    "id": 4,
+    "createdDate": "04.01.2024",
+    "title": "Konsept.az ",
+    "description": "Konsept.az xəbər saytıdır. Saytın məqsədi ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaqdır.",
+    "cover_img": "/images/konsept.png",
+    "background": "'Konsept.az', ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaq məqsədilə yaradılmış bir xəbər saytıdır. Konsept.az, geniş bir auditoriyaya çatmaq üçün çeşidli xəbər formatları və məzmun növləri təklif edir və oxucuların maraqlarına uyğun məqalələr və müzakirələrə yer verir.",
+     "objective": " Konsept.az-in əsas məqsədi, oxucularına ölkədə və dünyada baş verən ən aktual, mühüm və maraqlı hadisələri təqdim etməkdir. Sayt, obyektivlik, etik və səmərəlilik prinsiplərinə sadiq qalaraq, oxucularına güvənilir və ətraflı xəbərlər verməyə çalışır. Konsept.az oxuculara obyektiv, çoxsaylı və ən aktual xəbərləri təqdim edərək onların informasiya ehtiyacını qarşılayır.",
+     "screen_img": "/images/konsept-web-screen-2.png",
+     "screen_img_2": "/images/konsept-web-screen.png",
+     "screen_img_3": "/images/konsept-web-screen-3.png",
+     "screen_img_4": "/images/konsept-web-screen-4.png"
+  }
+]
