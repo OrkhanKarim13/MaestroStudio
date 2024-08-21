@@ -16,6 +16,7 @@
     "@nuxtjs/tailwindcss": "^6.9.4",
     "eslint": "^8.53.0",
     "nuxt": "^3.11.2",
+    "nuxt-aos": "^1.2.5",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   },

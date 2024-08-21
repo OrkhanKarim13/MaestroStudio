@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", '@pinia/nuxt', '@nuxtjs/i18n'],
+  modules: ["@nuxtjs/tailwindcss", '@pinia/nuxt', '@nuxtjs/i18n', "nuxt-aos"],
   pinia: {
     storesDirs: ['./stores/**'],
   },

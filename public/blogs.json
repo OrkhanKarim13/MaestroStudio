@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Maestro Studio-dan karyera inkişafı haqqında məsləhətlər",
+    "description": "Karyera hədəflərinizi təyin edərkən özünüzü inkişaf etdirərək, yeni biliklər əldə etmək, şəbəkənizi genişləndirmək və mentorluq alaraq karyeranızı sürətləndirmək vacibdir. Öz rəhbərliyinizi idarə etməklə özünüzü tanıyıb, doğru qərarlar verərək karyeranızı inkişaf etdirmək mümkündür.",
+    "content": "Hədəflər təyin edin: Qısa, orta və uzunmüddətli karyera hədəflərinizi müəyyənləşdirin. Hədəflər sizə yaxın olmalı, anlayışlı olmalı və həyata keçirilə bilən olmalıdır. Öz bilik və bacarıqlarınızı artırın: Özünüzü inkişaf etdirərək, yeni bilik və bacarıqlar əldə edin. Təcrübə və öyrənmə ilə güclənərək, karyeranızı inkişaf etdirə bilərsiniz. Networking (Şəbəkələşmə): İnsanlarla əlaqə qurun və əlaqələrinizi genişləndirin. Müxtəlif sahələrdəki şəbəkələriniz sizə yeni imkanlar açaraq, karyeranızı inkişaf etdirməyə kömək edə bilər. Mentorluq və Coaching: Bir mentor və ya coachdan kömək alın. Sizə təcrübə və məsləhət verən bir mütəxəssisin fikirləri və təcrübəsi, karyeranızı sürətləndirə bilər.Öz rəhbərliyinizi idarə edin: Karyeranızı yönləndirən şəxs olun və qərarlarınızı özünüz verin. Özünüzü tanıyın və razı olun.",
+    "cover_img": "/images/card-cover.svg"
+  },
+  {
+    "id": 2,
+    "title": "Biznesiniz üçün veb saytın önəmi nədir?",
+    "description": "Veb saytınız, şirkətinizin kimliyini və xidmətlərini tanıtmaq, müştərilərinizlə əlaqə qurmaq və onlara 24/7 xidmət göstərmək üçün ən effektiv alətdir. Profesional və düzgün dizayn edilmiş bir veb sayt, müştərilərinizin etibarını qazanmaqda sizə kömək edəcək.",
+    "content":"Veb saytlar, günümüz iş dünyasında çox əhəmiyyətli bir rol oynayır, müştərilərə şirkətin kimliyini, məhsullarını və xidmətlərini tanıdır. Veb sayt vasitəsilə, şirkətiniz haqqında son məlumatları paylaşa, müştərilərinin tələblərinə cavab verə bilərsiniz. Bundan əlavə, veb saytınız müştərilərinizin sizinlə əlaqə saxlamaq üçün istifadə edəcəyi ən sadə yol olaraq xidmət edir. İstifadəçilər, məhsullarınızı və xidmətlərinizi daha yaxşı anlamaq üçün veb saytınızı ziyarət edə, mövcud olan rəyləri oxuya, məhsullarınızı sifariş etmək və ya sizinlə əlaqə saxlamaq üçün müraciət etmək imkanına malik olurlar. Veb saytınızın dizaynı və funksionallığı, müştərilərinizin ilk təəssüratını formalaşdırır. Professional və düzgün dizayn edilmiş veb sayt, şirkətinizin səmimiyyətini və məsuliyyətini nümayiş etdirir. Müştərilər, gözəl və funksional bir veb saytın ardındakı şirkətə daha çox etibar edəcəklərini bilirlər. Ən vacib olanı isə, veb sayt potensial müştərilərinizə günün hər saatında və dünyanın hər yerində çatmaq imkanı verir. Veb saytınız vasitəsilə, müştəriləriniz sizinlə əlaqə saxlamaq, məhsullarınızı və xidmətlərinizi almaq üçün istədikləri zaman və yerlərdən istifadə edə bilərlər. Bu da sizin müştərilərinizin rahatlığını artırır və onlara daha yaxşı bir alışveriş təcrübəsi təmin edir.",
+    "cover_img": "/images/card-cover.svg"
+  },
+  {
+    "id": 3,
+    "title": "Blog title2",
+    "description": "Karyera hədəflərinizi təyin edərkən özünüzü inkişaf etdirərək, yeni biliklər əldə etmək, şəbəkənizi genişləndirmək və mentorluq alaraq karyeranızı sürətləndirmək vacibdir. Öz rəhbərliyinizi idarə etməklə özünüzü tanıyıb, doğru qərarlar verərək karyeranızı inkişaf etdirmək mümkündür.",
+    "cover_img": "/images/card-cover.svg"
+  },
+  {
+    "id": 4,
+    "title": "Blog title2",
+    "description": "Karyera hədəflərinizi təyin edərkən özünüzü inkişaf etdirərək, yeni biliklər əldə etmək, şəbəkənizi genişləndirmək və mentorluq alaraq karyeranızı sürətləndirmək vacibdir. Öz rəhbərliyinizi idarə etməklə özünüzü tanıyıb, doğru qərarlar verərək karyeranızı inkişaf etdirmək mümkündür.",
+    "cover_img": "/images/card-cover.svg"
+  }
+]

@@ -15,8 +15,8 @@
                 </div>
               </div> -->
               <!-- <ProjectCard v-for="project in projects" :key="project" :project="project"/> -->
-               <div v-for="project in projects" :key="project.id">
-                <ProjectCard :project="project"/>
+               <div  v-for="project in projects" :key="project.id">
+                <ProjectCard  :project="project"/>
                </div>
       </div>
   </section>
@@ -26,13 +26,11 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import ProjectCard from '~/components/ProjectCard.vue';
+import getProjects from "@/public/projects.json"
 
-const projects = ref([]);
+const projects=ref(getProjects)
 
-onMounted(async () => {
-  const response = await fetch('public/projects.json');
-  projects.value = await response.json();
-});
+
 </script>
 <!-- <script setup>
 import getProjects from "@/public/projects.json"

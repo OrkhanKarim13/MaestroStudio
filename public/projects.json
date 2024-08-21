@@ -41,14 +41,27 @@
   {
     "id": 4,
     "createdDate": "04.01.2024",
-    "title": "Konsept.az ",
+    "title": "Konsept.az",
     "description": "Konsept.az xəbər saytıdır. Saytın məqsədi ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaqdır.",
     "cover_img": "/images/konsept.png",
     "background": "'Konsept.az', ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaq məqsədilə yaradılmış bir xəbər saytıdır. Konsept.az, geniş bir auditoriyaya çatmaq üçün çeşidli xəbər formatları və məzmun növləri təklif edir və oxucuların maraqlarına uyğun məqalələr və müzakirələrə yer verir.",
      "objective": " Konsept.az-in əsas məqsədi, oxucularına ölkədə və dünyada baş verən ən aktual, mühüm və maraqlı hadisələri təqdim etməkdir. Sayt, obyektivlik, etik və səmərəlilik prinsiplərinə sadiq qalaraq, oxucularına güvənilir və ətraflı xəbərlər verməyə çalışır. Konsept.az oxuculara obyektiv, çoxsaylı və ən aktual xəbərləri təqdim edərək onların informasiya ehtiyacını qarşılayır.",
-     "screen_img": "/images/konsept-web-screen-2.png",
-     "screen_img_2": "/images/konsept-web-screen.png",
-     "screen_img_3": "/images/konsept-web-screen-3.png",
-     "screen_img_4": "/images/konsept-web-screen-4.png"
+     "screen_img": "/images/kons-web-screen-2.png",
+     "screen_img_2": "/images/kons-web-screen.png",
+     "screen_img_3": "/images/kons-web-screen-3.png",
+     "screen_img_4": "/images/kons-web-screen-4.png"
+  },
+  {
+    "id": 5,
+    "createdDate": "04.01.2024",
+    "title": "Letsi",
+    "description": "Letsi - tələbələrin, siniflərin və müəllimlərin idarə olunması üçün bir platformadır.",
+    "cover_img": "/images/konsept.png",
+    "background": "Letsi, tələbələrin, siniflərin və müəllimlərin idarə olunması üçün yaradılmış bir platformadır. Letsi, təhsil müəssisələrinin idarə heyətinə, müəllimlərə və tələbələrə, onların təhsil və öyrənmə prosesini daha səmərəli və effektiv şəkildə idarə etmələrində kömək edir.",
+     "objective": " Letsi-nin əsas məqsədi, tələbələrin, siniflərin və müəllimlərin idarə olunmasını asanlaşdırmaq və effektivləşdirməkdir. Letsi, tələbələrin öyrənmə prosesini səmərəli və maraqlı hala gətirməyə kömək edir, müəllimlərə də dərsləri effektiv şəkildə planlaşdırma və idarə etmə imkanı verir. Bu sayədə, təhsil müəssisələri öyrənmə prosesini daha səmərəli şəkildə idarə edir və tələbələri daha yaxşı təhsil ilə təmin edir.",
+     "screen_img": "/images/letsi-web-screen-2.png",
+     "screen_img_2": "/images/letsi-web-screen.png",
+     "screen_img_3": "/images/letsi-web-screen-3.png",
+     "screen_img_4": "/images/letsi-web-screen-4.png"
   }
 ]

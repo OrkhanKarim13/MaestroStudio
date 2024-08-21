@@ -37,7 +37,7 @@
       <div class="col-span-1 flex flex-col gap-6 ">
         <div class="w-full"><img class=" w-full  object-cover rounded-md" :src="project?.screen_img" alt="cover"></div>
         <div class="w-full"><img class="w-full  object-cover rounded-md" :src="project?.screen_img_3" alt="cover"></div>
-        
+
       </div>
 
     </div>
