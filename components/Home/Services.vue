@@ -19,7 +19,7 @@
           <ul class="flex flex-col items-start justify-center text-lg lg:text-2xl font-semibold">
             <li v-for="link in links" class="px-4 py-2 lg:px-8 lg:py-4 font-bold">{{ link }}</li>
             <button class="px-4 py-2 lg:px-8 lg:py-4 font-bold">
-              <a class="uppercase  text-blue-700 text-lg font-semibold cursor-pointer" href="/">View</a>
+              <a class="uppercase  text-blue-700 text-lg font-semibold cursor-pointer" href="/services">View</a>
             </button>
           </ul>
         </div>

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "person_name": "Elchin Rahimli",
+        "position": "Full-Stack developer",
+        "person_img": "/images/elchin.png"
+      },
+      {
+        "id": 2,
+        "person_name": "Murad Aliyev",
+        "position": "Front-end and mobile developer",
+        "person_img": "/images/muradaliyev.png"
+      },
+      {
+        "id": 3,
+        "person_name": "Hussein Alizada",
+        "position": "Front-end developer",
+        "person_img": "/images/hussein.png"
+      }
+]

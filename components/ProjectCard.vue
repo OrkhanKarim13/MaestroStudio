@@ -1,6 +1,6 @@
 <template>
   <div data-aos="fade-up" class="rounded-md bg-white px-4 py-6 md:px-16 md:py-12 flex flex-col items-center justify-center  gap-6">
-    <img class="w-full h-[200px] rounded-lg object-contain" :src="project?.cover_img" alt="image">
+    <img class="w-full h-[200px] rounded-lg object-cover" :src="project?.cover_img" alt="image">
     <div class="flex flex-col items-center justify-center mx-auto gap-3">
       <h4 class="text-2xl text-black font-bold">
        {{project.title}}

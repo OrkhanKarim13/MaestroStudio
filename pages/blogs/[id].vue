@@ -27,13 +27,13 @@
     </section>
 
     <!-- RELATED BLOGS -->
-    <section v-if="blog" class="mx-9 mb-6 bg-[#0047FF]  rounded-md">
+    <!-- <section v-if="blog" class="mx-9 mb-6 bg-[#0047FF]  rounded-md">
       <div class="grid grid-cols-2 gap-5">
         <div v-for="blog in blogs" :key="blog.id" >
         <BlogCard :blog="blog" />
       </div>
       </div>
-    </section>
+    </section> -->
     <AppForm />
   </div>
 </template>

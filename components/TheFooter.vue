@@ -26,27 +26,27 @@
             </div>
             <div class=" md:mx-auto flex flex-col gap-2 justify-start items-start px-4 md:py-6 ">
 
-                <p class="text-large text-white font-normal leading-7">Mərkəzi Bulvar küç, Bakı, Azərbaycan
+                <p >  <a class="text-large text-white font-normal leading-7" href="https://maps.app.goo.gl/tQwRpnFet4RbGqRd9">Mərkəzi Bulvar küç, Bakı, Azərbaycan</a>
                 </p>
                 <div class="w-full border-b border-white my-3"></div>
-                <p class="text-lg text-white leading-7">info@maestro.st
+                <p class="text-lg text-white leading-7"><a href="mailto:info@maestro.st">info@maestro.st</a>
                 </p>
                 <div class="w-full border-b border-white my-3"></div>
-                <p class="text-lg text-white leading-7">+994 50 299 84 90</p>
+                <p class="text-lg text-white leading-7"><a href="tel:+994502998490">+994 50 299 84 90</a></p>
             </div>
             <div class=" md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
-                <p class="text-lg text-white leading-7">About
+                <p class="text-lg text-white leading-7"><nuxt-link to="/about">About</nuxt-link>
                 </p>
 
                 <div class="w-full border-b border-white my-3"></div>
-                <p class=" text-white leading-7">Services
+                <p class=" text-white leading-7"><nuxt-link to="/services">Services</nuxt-link>
                 </p>
                 <div class="w-full border-b border-white my-3"></div>
-                <p class="text-lg text-white leading-7">Projects
+                <p class="text-lg text-white leading-7"><nuxt-link to="/projects">Projects</nuxt-link>
                 </p>
-                <div class="w-full border-b border-white my-3"></div>
-                <p class="text-lg text-white leading-7">Our workfloww
-                </p>
+                
+                
+                
             </div>
             <div class=" md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
                 <p class="text-lg text-white leading-7">Careers
@@ -59,7 +59,7 @@
 
                 </p>
                 <div class="w-full border-b border-white my-3"></div>
-                <p class="text-lg text-white leading-7">Contact
+                <p class="text-lg text-white leading-7"><nuxt-link to="/contact">Contact</nuxt-link>
                 </p>
 
             </div>

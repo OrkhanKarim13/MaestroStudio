@@ -11,33 +11,30 @@
         <div class="w-full md:bg-white flex flex-col items-center justify-center md:p-12 rounded-md gap-8 md:gap-14 ">
           <h4 class="md:text-black text-white text-3xl md:text-6xl font-bold">Executive Team</h4>
           <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="p-6 flex flex-col items-center justify-center bg-white md:bg-[#0047FF]  rounded-md">
+
+            <div v-for="person in team" :key="team.id"
+              class="p-6 flex flex-col items-center justify-center bg-white md:bg-[#0047FF]  rounded-md">
               <div class="md:w-full flex flex-col gap-4">
-                <div class="w-full  bg-white rounded-md"><img class="w-full" src="~/assets/images/image42(1).svg"
-                    alt="person"></div>
-                <p class="md:text-white text-black  text-left">Front-end developer</p>
-                <h4 class="md:text-white text-black font-bold text-2xl text-left">Asgar Asgarov</h4>
+                <div class="w-full  bg-white rounded-md"><img class="w-full" :src="person?.person_img" alt="person">
+                </div>
+                <p class="md:text-white text-black  text-left">{{ person?.position }}</p>
+                <h4 class="md:text-white text-black font-bold text-2xl text-left">{{ person?.person_name }}</h4>
               </div>
             </div>
-            <div class="p-6 flex flex-col items-center justify-center  bg-white md:bg-[#0047FF]   rounded-md">
-              <div class="md:w-full flex flex-col gap-4">
-                <div class="w-full bg-white rounded-md"><img class="w-full" src="~/assets/images/image42(1).svg"
-                    alt="person"></div>
-                <p class="md:text-white text-black text-left">Software developer</p>
-                <h4 class="md:text-white text-black font-bold text-2xl text-left">Ruhid Shukurlu</h4>
-              </div>
-            </div>
-            <div class="p-6 flex flex-col items-center justify-center  bg-white md:bg-[#0047FF]   rounded-md">
-              <div class="md:w-full flex flex-col gap-4">
-                <div class="w-full bg-white rounded-md"><img class="w-full" src="~/assets/images/image15.png"
-                    alt="person"></div>
-                <p class="md:text-white text-black text-left">Front-end developer</p>
-                <h4 class="md:text-white text-black font-bold text-2xl text-left">Orkhan Karimli</h4>
-              </div>
-            </div>
+
+
+
+
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
+<script setup>
+import getTeam from "@/public/team.json"
+
+const team = ref(getTeam)
+
+
+</script>
