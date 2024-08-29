@@ -17,7 +17,7 @@
           <a
             class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
             href="/"
-            >Read More</a
+            >Ətraflı oxu</a
           >
         </div>
       </div>
@@ -35,7 +35,7 @@
           <a
             class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
             href="/"
-            >Read More</a
+            >Ətraflı oxu</a
           >
         </div>
       </div>

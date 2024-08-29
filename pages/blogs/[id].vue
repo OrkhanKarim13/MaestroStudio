@@ -4,22 +4,26 @@
       <div class="flex flex-col items-start justify-center">
         <div class="flex flex-col items-center justify-center p-6">
           <div class="w-full flex items-center gap-6 text-white">
-            <span>Dec 01, 2023</span>
-            <span>8 min read</span>
+            <span>{{ blog?.posted_date }}</span>
+            
           </div>
           <div class="w-full">
-            <h2 class="text-6xl text-white leading-snug">{{blog?.title}}</h2>
+            <h2 data-aos="fade-left" class="text-6xl w-3/4 text-white leading-snug">{{ blog?.title }}</h2>
 
           </div>
         </div>
-        <div class="w-full"><img class="object-cover w-full" src="~/assets/images/Frame1222.svg" alt="cover"></div>
-        <div class="p-12 w-full text-center">
-          <p class="text-white text-2xl text-left w-2/3 mx-auto">{{ blog?.description }}</p>
+        <div class="w-full h-[500px]"><img class="block md:hidden object-cover w-full"
+            src="~/assets/images/Frame1222.svg" alt="cover">
+          <video class="hidden md:block object-cover h-full w-full" :src="blog?.cover_video" loop autoplay
+            muted></video>
         </div>
-        <div class="w-full flex items-center justify-center"><img class="object-cover w-2/3"
-            src="~/assets/images/Frame1222.svg" alt="cover"></div>
-        <div class="p-12 w-full text-center">
-          <div class="text-white text-2xl text-left flex flex-col items-start justify-center gap-4 w-2/3 mx-auto ">
+        <div class="py-12 w-full text-center">
+          <p class="text-white  text-2xl text-justify w-2/3 mx-auto">{{ blog?.description }}</p>
+        </div>
+        <div class=" w-2/3 mx-auto  flex items-center justify-center"><img class="object-cover h-full "
+            :src="blog?.cover_img" alt="cover"></div>
+        <div class="py-12 w-full text-center">
+          <div class="text-white text-2xl text-justify flex flex-col items-start justify-center gap-4 w-2/3 mx-auto ">
             {{ blog?.content }}
           </div>
         </div>

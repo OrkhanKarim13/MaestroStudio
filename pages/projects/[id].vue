@@ -12,18 +12,18 @@
   </section>
   <section class="md:mx-9 md:mb-6 md:p-12 px-4 py-6 md:rounded-md bg-[#0047FF]">
     <div v-if="project" class="flex flex-col items-start justify-center gap-6">
-      <h2 class="text-6xl text-white uppercase ">Partner's Profile</h2>
+      <h2 class="text-6xl text-white  ">Tərəfdaşın profili</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="p-12 col-span-1 text-4xl text-white border border-blue rounded-lg flex items-center justify-center">
-          BACKGROUND</div>
-        <div class="p-12 col-span-2 text-md text-black border border-blue rounded-lg bg-white">{{ project.background }}
+        <div class="col-span-1 text-4xl text-white  rounded-lg flex items-center justify-center">
+          <img class="rounded-md " :src="project?.cover_img" alt="cover"> </div>
+        <div class="p-12 col-span-2 text-md text-black  rounded-lg bg-white">{{ project.background }}
         </div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="p-12 col-span-1 text-4xl text-white border border-blue rounded-lg flex items-center justify-center">
-          <h3 class="mr-20">Objective</h3>
+        <div class=" col-span-1 text-4xl text-white  rounded-lg flex items-center justify-center">
+          <div ><img class="rounded-md " :src="project?.screen_img_3" alt="cover"></div>
         </div>
-        <div class="p-12 col-span-2 text-md text-black border border-blue rounded-lg bg-white">{{ project.objective }}
+        <div class="p-12 col-span-2 text-md text-black  rounded-lg bg-white">{{ project.objective }}
         </div>
       </div>
     </div>

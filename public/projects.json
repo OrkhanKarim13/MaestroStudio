@@ -2,9 +2,22 @@
   {
     "id": 1,
     "createdDate": "01.01.2024",
+    "title": "MyBrands",
+    "description": "NOVCO şirkətlər qrupuna məxsus olan mağazalar MyBrands çətiri altında birləşmişdir. Şirkətin əsas fəaliyyət sahəsi pərakəndə ticarətdir. MYBRANDS.AZ saytı sizə dünya ölkələrindən dəbli məhsullar əldə etmək imkanı təqdim edir.",
+    "cover_img": "/images/my-brands.png",
+    "background": "Şirkətin əsas fəaliyyət sahəsi pərakəndə ticarətdir. MyBrands, müştərilərə dünya standartlarında məhsullar təqdim edərək onların həyatını asanlaşdırmağı və keyfiyyətli alış-veriş imkanı yaratmağı hədəfləyir.",
+    "objective": "MyBrands.az saytının əsas məqsədi, müştərilərə dünya brendlərinin məhsullarına çatmaq imkanı yaradaraq onların tələblərini ən yaxşı şəkildə qarşılamadır. Sayt, müştərilərə geniş bir məhsul seçimi təklif edir və onlara dünya səviyyəsində keyfiyyətli alış-veriş imkanı verir. MyBrands.az, müştərilərinin ehtiyaclarını qarşılayaraq onların alış-veriş prosesini daha sürətli, asan və rahat hala gətirməyi hədəfləyir.",
+    "screen_img": "/images/my-brands-web-screen-4.png",
+    "screen_img_2": "/images/my-brands-web-screen-3.png",
+    "screen_img_3": "/images/my-brands-web-screen-2.png",
+    "screen_img_4": "/images/my-brands-web-screen.png"
+  },
+  {
+    "id": 2,
+    "createdDate": "01.01.2024",
     "title": "Aral Group",
     "description": "Aral group” şirkəti Azərbaycanda təmir-tikinti sahəsində liderlərdən biridir. Əsası qoyulduqdan qısa müddət sonra ölkəmizin inşaat bazarına daxil olan şirkət gündən-günə Azərbaycanın gözəlliyinə öz tövhəsini verməkdədir.",
-    "cover_img": "/images/aral.png",
+    "cover_img": "/images/aral-group.png",
     "background": "'Aral Group', Azərbaycanda təmir-tikinti sahəsində liderlərdən biri olaraq tanınan bir şirkəttir. Şirkət, əsasını qoyduqdan qısa bir müddət sonra Azərbaycanın inşaat bazarına daxil olmuş və ölkənin gözəlliyinə töhfə verərək adından söz etdirmişdir. Aral Group, inkişaf etmiş infrastruktur, keyfiyyətli tikinti materialları və peşəkar kadrlarla özünü fərqləndirir. ",
     "objective": "'Aral Group'un əsas məqsədi, Azərbaycanın gözəlliyinə öz tövhəsini verməkdir. Şirkət, yaradılan layihələrlə ölkədə möhtəşəm tikinti və təmir işləri görərək mühiti dəyişdirməyə çalışır, müştərilərinin ehtiyaclarını başa düşərək, onlara mümkün olan ən yaxşı xidməti təqdim etməyə fokuslanır.",
     "screen_img": "/images/aral-web-screen.png",
@@ -13,7 +26,7 @@
     "screen_img_4": "/images/aral-web-screen-4.png"
   },
   {
-    "id": 2,
+    "id": 3,
     "createdDate": "02.01.2024",
     "title": "İZZİDONE",
     "description": "İZZİ şəxsi və məişət işləri ilə əlaqədar peşəkar axtarışında olanları təcrübəli mütəxəssislərlə birləşdirən platformadır.",
@@ -26,11 +39,11 @@
     "screen_img_4": "/images/izzi-web-screen-4.png"
   },
   {
-    "id": 3,
+    "id": 4,
     "createdDate": "03.01.2024",
     "title": "KARVAN-L",
     "description": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etmək və sektorda lider mövqeyini gücləndirməkdir. Şirkət, müştərilərinə yüksək keyfiyyətli məhsullar təklif edərək onların ehtiyaclarını ən yaxşı şəkildə qarşılamağı hədəfləyir. ",
-    "cover_img": "/images/karvan.png",
+    "cover_img": "/images/karvan-l.png",
     "background": "'KARVAN-L' şirkətlər qrupu, Azərbaycanda fəaliyyət göstərən ən iri özəl istehsalat və ticarət müəssisələrindən biridir. Şirkət, 1993-cü ildə kiçik bir şirkət kimi fəaliyyətinə başlamışdır. 'KARVAN-L' şirkətlər qrupu, Azərbaycan-da lak və boya məhsullarının istehsalı və idxalı üzrə ixtisaslaşmış ilk şirkətdir və «Ярославские краски» şirkətinin ilk rəsmi distribyutoru olmuşdur.",
     "objective": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etmək və sektorda lider mövqeyini gücləndirməkdir. Şirkət, müştərilərinə yüksək keyfiyyətli məhsullar təklif edərək onların ehtiyaclarını ən yaxşı şəkildə qarşılamağı hədəfləyir. ",
     "screen_img": "/images/karvan-web-screen-2.png",
@@ -39,7 +52,7 @@
     "screen_img_4": "/images/karvan-web-screen-4.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "createdDate": "04.01.2024",
     "title": "Konsept.az",
     "description": "Konsept.az xəbər saytıdır. Saytın məqsədi ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaqdır.",
@@ -52,11 +65,11 @@
      "screen_img_4": "/images/konsept-web-screen-4.png"
   },
   {
-    "id": 5,
+    "id": 6,
     "createdDate": "04.01.2024",
     "title": "Letsi",
     "description": "Letsi - tələbələrin, siniflərin və müəllimlərin idarə olunması üçün bir platformadır.",
-    "cover_img": "/images/konsept.png",
+    "cover_img": "/images/letsi-logo.png",
     "background": "Letsi, tələbələrin, siniflərin və müəllimlərin idarə olunması üçün yaradılmış bir platformadır. Letsi, təhsil müəssisələrinin idarə heyətinə, müəllimlərə və tələbələrə, onların təhsil və öyrənmə prosesini daha səmərəli və effektiv şəkildə idarə etmələrində kömək edir.",
      "objective": " Letsi-nin əsas məqsədi, tələbələrin, siniflərin və müəllimlərin idarə olunmasını asanlaşdırmaq və effektivləşdirməkdir. Letsi, tələbələrin öyrənmə prosesini səmərəli və maraqlı hala gətirməyə kömək edir, müəllimlərə də dərsləri effektiv şəkildə planlaşdırma və idarə etmə imkanı verir. Bu sayədə, təhsil müəssisələri öyrənmə prosesini daha səmərəli şəkildə idarə edir və tələbələri daha yaxşı təhsil ilə təmin edir.",
      "screen_img": "/images/letsi-web-screen-2.png",

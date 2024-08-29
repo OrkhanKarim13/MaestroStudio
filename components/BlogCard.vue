@@ -6,13 +6,13 @@
         </h4>
       </div>
     </div>
-    <div class="w-full  ">
-      <img class="h-[350px] w-full" :src="blog?.cover_img" alt="image">
+    <div class="w-full   ">
+      <img class="border object-cover" :src="blog?.cover_img" alt="image">
     </div>
     <div @click="goToDetails"  class="w-full px-6 py-4 flex cursor-pointer items-center justify-between rounded-b-md  bg-white">
       
-        <button class="uppercase md:text-lg  text-md font-semibold cursor-pointer" >View</button>
-      <img src="~/assets/images/Arrow.svg" alt="arrow">
+        <button class="uppercase md:text-lg  text-md font-semibold cursor-pointer" >Ətraflı bax</button>
+      <img src="~/assets/images/arrow-right.svg" alt="arrow">
     </div>
   </div>
 </template>
