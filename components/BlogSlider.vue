@@ -45,7 +45,7 @@ const router = useRouter();
 
 
 
-const goToDetails = (id: string | number) => {
+const goToDetails = (id) => {
     router.push(`./blogs/${id}`);
 };
 </script>
