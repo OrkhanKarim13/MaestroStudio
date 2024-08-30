@@ -1,17 +1,17 @@
 <template>
-  <div v-if="index % 2 === 1" class="mx-9 mb-6 bg-[#0047FF] rounded-md p-14">
-    <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
-      <div class="col-span-3 rounded-md">
+  <div v-if="index % 2 === 1" class="mx-4 mb-3 md:mx-9 md:mb-6 bg-[#0047FF] rounded-md p-4 md:p-14">
+    <div class="grid grid-cols-1 w-full md:grid-cols-5 gap-6">
+      <div class="col-span-3 md:rounded-md">
         <img
-          class="rounded-md w-full  h-[600px] "
+          class="md:rounded-md w-full  md:h-[600px] "
           :src="card.card_img"
           alt="image"
         />
       </div>
-      <div class="col-span-2 bg-[#0047FF] flex flex-col items-start justify-between rounded-md">
+      <div class="md:col-span-2 w-full bg-[#0047FF] flex flex-col items-start gap-4 justify-between rounded-md">
         <h3 data-aos="fade-up" class="text-white text-4xl leading-11">{{ card.title }}</h3>
         <div class="flex flex-col items-start justify-center gap-5">
-          <p class="text-white w-1/2 text-xl">{{ card.description }}</p>
+          <p class="text-white md:w-1/2 text-xl">{{ card.description }}</p>
         </div>
         <div class="flex flex-col items-start justify-center gap-5">
           <a
@@ -24,12 +24,12 @@
     </div>
   </div>
 
-  <div v-else class="mx-9 mb-6 bg-[#0047FF] rounded-md p-14">
+  <div v-else class="mx-4 mb-3 md:mx-9 md:mb-6 bg-[#0047FF] rounded-md p-4  md:p-14">
     <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
-      <div class="col-span-2 bg-[#0047FF] flex flex-col items-start justify-between rounded-md">
+      <div class="col-span-2 bg-[#0047FF] flex flex-col items-start gap-4 justify-between rounded-md">
         <h3 data-aos="fade-up" class="text-white text-4xl leading-11">{{ card.title }}</h3>
         <div class="flex flex-col items-start justify-center gap-5">
-          <p class="text-white w-1/2 text-xl">{{ card.description }}</p>
+          <p class="text-white w-full  md:w-1/2 text-xl">{{ card.description }}</p>
         </div>
         <div class="flex flex-col items-start justify-center gap-5">
           <a
@@ -41,7 +41,7 @@
       </div>
       <div class="col-span-3 rounded-md">
         <img
-          class="rounded-md w-full h-[600px]"
+          class="rounded-md w-full  md:h-[600px]"
           :src="card.card_img"
           alt="image"
         />
