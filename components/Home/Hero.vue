@@ -1,8 +1,8 @@
 <template>
   <section class="bg-[#0047FF] md:mx-9 md:mb-6 md:rounded-md">
-    <div class="flex flex-col items-center lg:items-start justfy-center px-8 py-14 md:p-12  gap-9">
+    <div class="flex flex-col items-center lg:items-start justfy-center px-4 py-14 md:p-12  gap-9">
       <h1 data-aos="fade-up"
-        class="text-5xl leading-snug lg:text-7xl text-center lg:text-left font-normal lg:leading-snug text-white w-full lg:w-3/5">
+        class="text-5xl leading-snug lg:text-7xl  text-center lg:text-left font-normal lg:leading-snug text-white w-full lg:w-3/5">
         Biz bunu
         reallaşdıracağıq</h1>
       <p data-aos="fade-up" class="text-white text-2xl">Müasir və yenilikçi Kouçinq və Biznes Məsləhətləri Studiyası</p>

@@ -20,7 +20,7 @@
         <div class="py-12 w-full text-center">
           <p class="text-white  text-2xl text-justify w-2/3 mx-auto">{{ blog?.description }}</p>
         </div>
-        <div class=" w-2/3 mx-auto  flex items-center justify-center"><img class="object-cover h-full "
+        <div class=" w-2/3 mx-auto h-[450px] flex items-center justify-center"><img class="object-cover w-full h-full "
             :src="blog?.cover_img" alt="cover"></div>
         <div class="py-12 w-full text-center">
           <div class="text-white text-2xl text-justify flex flex-col items-start justify-center gap-4 w-2/3 mx-auto ">

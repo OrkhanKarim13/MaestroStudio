@@ -24,7 +24,7 @@
           </ul>
         </div>
         <div class="p-6">
-          <img src="~/assets/images/rocket.svg" alt="image">
+          <img src="~/assets/images/service.png" alt="image">
         </div>
       </div>
     </div>

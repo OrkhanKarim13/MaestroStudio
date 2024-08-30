@@ -13,10 +13,10 @@
       <div class=" bg-[#0047FF] px-4 py-6 md:p-12 flex flex-col items-start justify-between gap-6  md:rounded-md">
           <input
               class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white text-white font-semibold"
-              type="text" name="" id="" placeholder="Full Name">
+              type="text" name="" id="" maxlength="30" placeholder="Ad Soyad">
           <input
               class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white  text-white font-semibold"
-              type="text" name="" id="" placeholder="Phone">
+              type="tel" name="" id="" maxlength="15" placeholder="Telefon">
           <input
               class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white  text-white font-semibold"
               type="email" name="" id="" placeholder="Email">

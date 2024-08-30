@@ -1,14 +1,24 @@
-<template>
-  <section class="md:mx-9 md:mb-6">
-    <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
-      <div class="lg:rounded-md relative">
-        <img class="w-full h-full hidden md:block" src="~/assets/gif/home.gif" alt="image">
-        <a href="https://aralgroupbaku.com/en" target="_blank"><img
-            class="md:absolute rounded-md md:w-[90%] md:left-[36px] md:top-[100px] hover:scale-[1.10] transition-all duration-300"
-            src="../../public/images/aral-vector.png" alt="web-screen"></a>
+a<template>
+  <section class="sm:mx-9  sm:my-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:gap-6">
+      <a href="https://aralgroupbaku.com/en" target="_blank">
+        <div
+        class="relative bg-white border-4 border-black w-full md:rounded-md h-[200px] lg:w-[720px] lg:h-[350px] shadow-md">
+
+        <!-- Background GIF -->
+        <img class="absolute inset-0 w-full h-full p-1  md:block object-cover" src="../../public/images/aral-group-hero.png"
+          alt="image" />
+
+        <!-- Screen (Empty div) -->
+        <div class="absolute inset-0 bg-gray-100 opacity-5"></div>
+
+        <!-- Base of the Monitor -->
+        <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-black w-24 h-4 rounded-b-md"></div>
       </div>
+      </a>
       <div class="bg-[#0047FF] pt-6 px-4 pb-12 lg:p-12 flex flex-col gap-5  items-start justify-between lg:rounded-md ">
-        <h2 data-aos="fade-up" class="  text-white text-4xl font-bold leading-11">Tikinti şirkəti üçün hazırladığımız veb sayt.</h2>
+        <h2 data-aos="fade-up" class="  text-white text-4xl font-bold leading-11">Tikinti şirkəti üçün hazırladığımız
+          veb sayt.</h2>
         <div class="flex items-center justify-center">
           <AppIcon name="ArrowLeftLong" class="text-white" />
         </div>

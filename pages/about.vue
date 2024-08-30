@@ -22,7 +22,7 @@
     </div>
   </section>
   <PartnerList />
-  <TeamList />
+  <!-- <TeamList /> -->
   <StatisticsList />
   <AppForm />
 </template>

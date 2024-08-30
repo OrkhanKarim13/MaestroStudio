@@ -1,50 +1,50 @@
 [
-    {
-        "id":1,
-        "partner_img":"/images/my-brands.png",
-        "description":"NOVCO şirkətlər qrupuna məxsus olan mağazalar MyBrands çətiri altında birləşmişdir. Şirkətin əsas fəaliyyət sahəsi pərakəndə ticarətdir.",
-        "figure_img":"/images/figure-1.svg"
-      },
-      {
-        "id":2,
-        "partner_img":"/images/aral-group.png",
-        "description":"Aral group” şirkəti Azərbaycanda təmir-tikinti sahəsində liderlərdən biridir. Əsası qoyulduqdan qısa müddət sonra gündən-günə Azərbaycanın gözəlliyinə öz tövhəsini verməkdədir.",
-        "figure_img":"/images/figure-2.svg"
-      },
-      {
-        "id":3,
-        "partner_img":"/images/izzi.png",
-        "description":"İZZİ şəxsi və məişət işləri ilə əlaqədar peşəkar axtarışında olanları təcrübəli mütəxəssislərlə birləşdirən platformadır.",
-        "figure_img":"/images/figure-3.svg"
-      },
-      {
-        "id":4,
-        "partner_img":"/images/karvan-l.png",
-        "description":"'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etməkdir. «Ярославские краски» şirkətinin ilk rəsmi distribyutoru olmuşdur.",
-        "figure_img":"/images/figure-4.svg"
-      },
-      {
-        "id":5,
-        "partner_img":"/images/konsept.png",
-        "description":"'Konsept.az', ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaq məqsədilə yaradılmış bir xəbər saytıdır.",
-        "figure_img":"/images/figure-5.svg"
-      },
-      {
-        "id":6,
-        "partner_img":"/images/letsi-logo.png",
-        "description":"Letsi, tələbələrin, siniflərin və müəllimlərin idarə olunması üçün yaradılmış bir platformadır.",
-        "figure_img":"/images/figure-6.svg"
-      },
-      {
-        "id":7,
-        "partner_img":"/images/mirror.png",
-        "description":"description",
-        "figure_img":"/images/figure-7.svg"
-      },
-      {
-        "id":8,
-        "partner_img":"/images/bantik-logo.png",
-        "description":"BANTİK - Azərbaycanın ən böyük gözəllik mağazaları şəbəkələrindən biridir.Müştərilerinə keyfıyyetli məhsullar ve peşəkar xidmət təklif edən mağazanın ikinci filialı fəaliyyatə başladı.",
-        "figure_img":"/images/figure-8.svg"
-      }
+  {
+    "id": 1,
+    "partner_img": "/images/my-brands.png",
+    "description": "NOVCO şirkətlər qrupuna məxsus olan mağazalar MyBrands çətiri altında birləşmişdir. Şirkətin əsas fəaliyyət sahəsi pərakəndə ticarətdir.",
+    "figure_img": "/images/figure-1.svg"
+  },
+  {
+    "id": 2,
+    "partner_img": "/images/aral-group.png",
+    "description": "Aral group” şirkəti Azərbaycanda təmir-tikinti sahəsində liderlərdən biridir. Əsası qoyulduqdan qısa müddət sonra gündən-günə Azərbaycanın gözəlliyinə öz tövhəsini verməkdədir.",
+    "figure_img": "/images/figure-2.svg"
+  },
+  {
+    "id": 3,
+    "partner_img": "/images/izzi.png",
+    "description": "İZZİ şəxsi və məişət işləri ilə əlaqədar peşəkar axtarışında olanları təcrübəli mütəxəssislərlə birləşdirən platformadır.",
+    "figure_img": "/images/figure-3.svg"
+  },
+  {
+    "id": 4,
+    "partner_img": "/images/karvan-l.png",
+    "description": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etməkdir. «Ярославские краски» şirkətinin ilk rəsmi distribyutoru olmuşdur.",
+    "figure_img": "/images/figure-4.svg"
+  },
+  {
+    "id": 5,
+    "partner_img": "/images/konsept.png",
+    "description": "'Konsept.az', ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaq məqsədilə yaradılmış bir xəbər saytıdır.",
+    "figure_img": "/images/figure-5.svg"
+  },
+  {
+    "id": 6,
+    "partner_img": "/images/letsi-logo.png",
+    "description": "Letsi, tələbələrin, siniflərin və müəllimlərin idarə olunması üçün yaradılmış bir platformadır.",
+    "figure_img": "/images/figure-6.svg"
+  },
+  {
+    "id": 7,
+    "partner_img": "/images/mirror.png",
+    "description": "Mirror şirkəti Azərbaycanın ən böyük açıq məkan reklam operatorlarından biridir. Şirkətin daşıyıcılarına klassik statik bilbordlar, roller tipli qurğular və rəqəmsal ekranlar daxildir",
+    "figure_img": "/images/figure-7.svg"
+  },
+  {
+    "id": 8,
+    "partner_img": "/images/bantik-logo.png",
+    "description": "BANTİK - Azərbaycanın ən böyük gözəllik mağazaları şəbəkələrindən biridir.Müştərilerinə keyfıyyetli məhsullar ve peşəkar xidmət təklif edən mağazanın ikinci filialı fəaliyyatə başladı.",
+    "figure_img": "/images/figure-8.svg"
+  }
 ]
