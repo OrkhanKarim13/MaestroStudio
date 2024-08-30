@@ -19,6 +19,7 @@
   },
   {
     "id": 3,
+    "posted_date": "Aug 28, 2024",
     "title": "Biznesiniz üçün mobil tətbiqin önəmi nədir?",
     "description": "Karyera hədəflərinizi təyin edərkən özünüzü inkişaf etdirərək, yeni biliklər əldə etmək, şəbəkənizi genişləndirmək və mentorluq alaraq karyeranızı sürətləndirmək vacibdir. Öz rəhbərliyinizi idarə etməklə özünüzü tanıyıb, doğru qərarlar verərək karyeranızı inkişaf etdirmək mümkündür.",
     "content": "Mobil tətbiqlər, müasir iş dünyasında çox vacib rol oynayır.Mobil tətbiqlər müştərilərlə əlaqəni gücləndirmək, satışları artırmaq, markanı yaxşılaşdırmaq və müştərilərə daha yaxşı xidmət göstərmək üçün ən əlverişli vasitələrdən biridir.Bu tətbiqlər vasitəsilə, müştərilər sizi hər zaman və hər yerdə tapa bilər, məhsullarınızı sifariş edə bilər və sizinlə əlaqə saxlaya bilərlər. Bu da müştərilərinizin sizinlə daha sıx əlaqədə olmalarını və məhsullarınızı daha çox satın almalarını təmin edir.Mobil tətbiqlər, markanızın müştərilər arasında daha tanınan olmasına kömək edir. Bir mobil tətbiq, şirkətinizin rəqabətçi olmasını və digər şirkətlərin arxasında qalmamasını təmin edir. Müştərilər, mobil tətbiqlərin rahat və effektiv olduğunu bilirlər və bu da onları sizin şirkətinizə maraqlandırır.Nəticə olaraq, mobil tətbiqlər, biznesiniz üçün əhəmiyyətli bir alətdir. Müştərilərlə daha yaxından əlaqə qurmaq, satışları artırmaq, markanı yaxşılaşdırmaq və müştərilərə daha rahat bir təcrübə təmin etmək üçün idealdır.",
@@ -27,9 +28,11 @@
   },
   {
     "id": 4,
+    "posted_date": "Aug 29, 2024",
     "title": "Blog title 4",
     "description": "Karyera hədəflərinizi təyin edərkən özünüzü inkişaf etdirərək, yeni biliklər əldə etmək, şəbəkənizi genişləndirmək və mentorluq alaraq karyeranızı sürətləndirmək vacibdir. Öz rəhbərliyinizi idarə etməklə özünüzü tanıyıb, doğru qərarlar verərək karyeranızı inkişaf etdirmək mümkündür.",
     "content": "Mobil tətbiqlər, müasir iş dünyasında çox vacib rol oynayır.Mobil tətbiqlər müştərilərlə əlaqəni gücləndirmək, satışları artırmaq, markanı yaxşılaşdırmaq və müştərilərə daha yaxşı xidmət göstərmək üçün ən əlverişli vasitələrdən biridir.Bu tətbiqlər vasitəsilə, müştərilər sizi hər zaman və hər yerdə tapa bilər, məhsullarınızı sifariş edə bilər və sizinlə əlaqə saxlaya bilərlər. Bu da müştərilərinizin sizinlə daha sıx əlaqədə olmalarını və məhsullarınızı daha çox satın almalarını təmin edir.Mobil tətbiqlər, markanızın müştərilər arasında daha tanınan olmasına kömək edir. Bir mobil tətbiq, şirkətinizin rəqabətçi olmasını və digər şirkətlərin arxasında qalmamasını təmin edir. Müştərilər, mobil tətbiqlərin rahat və effektiv olduğunu bilirlər və bu da onları sizin şirkətinizə maraqlandırır.Nəticə olaraq, mobil tətbiqlər, biznesiniz üçün əhəmiyyətli bir alətdir. Müştərilərlə daha yaxından əlaqə qurmaq, satışları artırmaq, markanı yaxşılaşdırmaq və müştərilərə daha rahat bir təcrübə təmin etmək üçün idealdır.",
-    "cover_img": "/images/business-2.png"
+    "cover_img": "/images/business-2.png",
+    "cover_video": "/videos/mobile-app.mp4"
   }
 ]

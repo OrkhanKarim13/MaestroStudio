@@ -16,5 +16,11 @@
         "person_name": "Huseyn Alizada",
         "position": "Front-end developer",
         "person_img": "/images/hussein.png"
+      },
+      {
+        "id": 4,
+        "person_name": "Nizami Garayev",
+        "position": "Mobile developer",
+        "person_img": "/images/nizami.png"
       }
 ]

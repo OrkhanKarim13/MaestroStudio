@@ -8,22 +8,8 @@
       <div class="w-full text-center px-4 py-6 md:px-28 md:py-16 bg-[#0047FF] rounded-md">
         <div class="w-full md:bg-white flex flex-col items-center justify-center md:p-12 rounded-md gap-8 md:gap-14 ">
           <h4 class="md:text-black text-white text-3xl md:text-6xl font-bold">İcra Komandası</h4>
-          <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-6">
-
-            <div v-for="person in team" :key="team.id"
-              class="p-6 flex flex-col items-center justify-center bg-white md:bg-[#0047FF]  rounded-md">
-              <div class="md:w-full flex flex-col gap-4">
-                <div class="w-full  bg-white rounded-md"><img class="w-full" :src="person?.person_img" alt="person">
-                </div>
-                <p class="md:text-white text-black  text-left">{{ person?.position }}</p>
-                <h4 class="md:text-white text-black font-bold text-2xl text-left">{{ person?.person_name }}</h4>
-              </div>
-            </div>
-
-
-
-
-          </div>
+          <TeamSlider/>
+         
         </div>
       </div>
     </div>

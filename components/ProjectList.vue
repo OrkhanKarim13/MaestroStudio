@@ -5,7 +5,7 @@
         <h2 class="md:col-span-4 text-white text-3xl font-bold leading-6 text-center md:text-left">Təqdim etdiyimiz layihələr
         </h2>
         <NuxtLink :to="localePath({ name: 'projects' })"
-          class="col-span-1 uppercase cursor-pointer  px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center ">
+          class="col-span-1 uppercase cursor-pointer  px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center hover:scale-[1.05] ">
           Ətraflı bax
         </NuxtLink>
       </div>

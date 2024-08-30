@@ -1,7 +1,7 @@
 <template>
   <div class=" bg-white rounded-md px-4 py-6 md:px-16 md:py-12 flex flex-col items-center justify-center  gap-6">
     <div class="">
-      <img class="object-fit h-[310px] w-full " :src="project?.cover_img" alt="image">
+      <img class="object-fit h-[210px] w-full " :src="project?.cover_img" alt="image">
     </div>
     <div class="flex flex-col items-center justify-center mx-auto gap-3">
       <h4 class="text-2xl text-black font-bold">

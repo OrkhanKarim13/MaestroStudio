@@ -1,7 +1,7 @@
 <template>
   <section class=" bg-white md:mx-9 md:my-6 md:rounded-md">
     <div class="flex flex-col items-center justify-center">
-      <div class="w-full h-[600px] ">
+      <div class="w-full md:h-[600px] ">
         <div class="video-container rounded-md">
           <video class="custom-video" autoplay muted >
             <source src="~/assets/videos/background.mp4" type="video/mp4">

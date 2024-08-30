@@ -1,17 +1,18 @@
 <template>
   <div class="border flex flex-col items-center justify-center rounded-md">
-    <div class="w-full flex flex-col items-start justify-center bg-white rounded-t-md  p-6 gap-6">
-      <div class="h-[80px]">
-        <h4 class="text-xl lg:text-3xl font-bold leading-normal">{{ blog?.title }}
+    <div class="w-full flex flex-col items-start justify-center bg-white rounded-t-md  p-6 ">
+      <div class="md:h-[70px]">
+        <h4 class=" lg:text-[24px] font-semibold leading-normal">{{ blog?.title }}
         </h4>
       </div>
+      <span>{{ blog?.posted_date }}</span>
     </div>
     <div class="w-full   ">
       <img class="border object-cover" :src="blog?.cover_img" alt="image">
     </div>
     <div @click="goToDetails"  class="w-full px-6 py-4 flex cursor-pointer items-center justify-between rounded-b-md  bg-white">
       
-        <button class="uppercase md:text-lg  text-md font-semibold cursor-pointer" >Ətraflı bax</button>
+        <button class="uppercase md:text-lg  text-md font-semibold cursor-pointer  hover:scale-[1.01]" >Ətraflı bax</button>
       <img src="~/assets/images/arrow-right.svg" alt="arrow">
     </div>
   </div>

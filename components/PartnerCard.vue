@@ -15,9 +15,9 @@
                 </div>
             </div>
             <div
-                class="absolute p-4 top-0 left-0 h-fit w-full rounded-xl flex flex-col items-center justify-around text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
+                class="absolute p-4 top-0 left-0 h-full w-full rounded-xl flex flex-col items-center justify-around text-slate-200 opacity-0 group-hover:opacity-100  [transform:rotateY(180deg)] ">
                 <p class="text-black  text-base text-center">{{ partner.description }}</p>
-                <div class="p-4"><img class="" :src="partner?.partner_img" alt="logo"></div>
+                <div class="p-4 h-[150px]"><img class="h-full" :src="partner?.partner_img" alt="logo"></div>
             </div>
         </div>
     </div>

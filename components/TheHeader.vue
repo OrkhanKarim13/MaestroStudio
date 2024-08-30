@@ -25,7 +25,7 @@
       <!-- Desktop nav list -->
       <nav class=" hidden md:border md:border-blue-500 md:rounded-full sm:flex items-center">
         <ul class="flex">
-          <li class="px-8 py-4 block text-black font-aspekta uppercase" v-for="link in links">
+          <li class="px-8 py-4 block text-black font-aspekta uppercase hover:scale-[1.03]" v-for="link in links">
             <NuxtLink :to="localePath({ name: link.name})">{{ link.title.en }}</NuxtLink>
           </li>
         </ul>
