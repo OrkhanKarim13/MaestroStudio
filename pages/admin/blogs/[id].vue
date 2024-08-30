@@ -5,14 +5,14 @@
 </template>
 
 <script setup async>
-  import { useMainStore } from '~/stores/MainStore'
+  // import { useMainStore } from '~/stores/MainStore'
 
-  const store = useMainStore()
+  // const store = useMainStore()
   const route = useRoute()
   const { id } = route.params
-  const { fetchItem, getResourceFields } = store
+  // const { fetchItem, getResourceFields } = store
 
-  const blogFields = computed(() => getResourceFields('blog'));
+  // const blogFields = computed(() => getResourceFields('blog'));
 
-  const blog = await fetchItem({id, resource: 'blogs'})
+  // const blog = await fetchItem({id, resource: 'blogs'})
 </script>

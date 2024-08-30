@@ -20,13 +20,13 @@
 
 const isEditorOpen = ref(false)
 
-const store = useMainStore()
+// const store = useMainStore()
 
-const { blogs, loading } = storeToRefs(store)
+// const { blogs, loading } = storeToRefs(store)
 
-const { fetchItems, getResourceFields, blogObjectDefault } = store
-const blogFields = computed(() => getResourceFields('blog'));
+// const { fetchItems, getResourceFields, blogObjectDefault } = store
+// const blogFields = computed(() => getResourceFields('blog'));
 
-fetchItems({ resource: 'blogs', isAdmin: true })
+// fetchItems({ resource: 'blogs', isAdmin: true })
 
 </script>

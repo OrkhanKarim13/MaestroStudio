@@ -18,13 +18,13 @@
 <script setup>
 const isEditorOpen = ref(false)
 
-const store = useMainStore()
+// const store = useMainStore()
 
-const { blogCategories } = storeToRefs(store)
+// const { blogCategories } = storeToRefs(store)
 
-const { fetchItems, getResourceFields, blogCategoryObjectDefault } = store
-const blogCategoryFields = computed(() => getResourceFields('blogCategory'));
+// const { fetchItems, getResourceFields, blogCategoryObjectDefault } = store
+// const blogCategoryFields = computed(() => getResourceFields('blogCategory'));
 
-fetchItems({ resource: 'blogCategories', isAdmin: true })
+// fetchItems({ resource: 'blogCategories', isAdmin: true })
 
 </script>

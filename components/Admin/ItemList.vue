@@ -65,7 +65,7 @@ const props = defineProps({
   resource: { type: String }
 })
 
-const store = useMainStore()
+// const store = useMainStore()
 const { loading } = storeToRefs(store)
 
 function handleDeleteItem(item) {

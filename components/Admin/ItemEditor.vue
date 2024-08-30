@@ -303,7 +303,7 @@ const localeRoute = useLocaleRoute()
 const router = useRouter()
 const { addNotification } = useNotifications()
 
-const store = useMainStore()
+// const store = useMainStore()
 
 const props = defineProps({
   item: { type: Object },
@@ -328,18 +328,18 @@ const form = computed(() => {
 })
 
 async function save() {
-  if (props.item?.id) {
-    const res = await store.updateItem({ item: form.value, resource: props.resource, oldCoverImage: oldCoverImage.value, oldIconImage: oldIconImage.value, oldSliderImages: oldSliderImages?.value })
-    if (!res) return
-    const route = localeRoute({ name: `admin-${props.resource}` })
-    router.push(route)
-    addNotification({ message: 'Successfully updated' })
-  } else {
-    const res = await store.createItem({ item: form.value, resource: props.resource })
-    if (!res) return
-    emit('closeEditor')
-    addNotification({ message: 'Successfully created' })
-  }
+  // if (props.item?.id) {
+  //   const res = await store.updateItem({ item: form.value, resource: props.resource, oldCoverImage: oldCoverImage.value, oldIconImage: oldIconImage.value, oldSliderImages: oldSliderImages?.value })
+  //   if (!res) return
+  //   const route = localeRoute({ name: `admin-${props.resource}` })
+  //   router.push(route)
+  //   addNotification({ message: 'Successfully updated' })
+  // } else {
+  //   const res = await store.createItem({ item: form.value, resource: props.resource })
+  //   if (!res) return
+  //   emit('closeEditor')
+  //   addNotification({ message: 'Successfully created' })
+  // }
 }
 
 function handleCoverImageUpload(e) {
