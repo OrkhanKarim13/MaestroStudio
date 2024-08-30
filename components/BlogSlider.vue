@@ -1,6 +1,11 @@
 <template>
     <swiper class="mySwiper" space-between="20" :slidesPerView="1" :breakpoints="{
         
+        '768': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+       
     }">
         <swiper-slide v-for="blog in blogs" :key="blog.id" :blog="blog"
             class="w-full flex justify-center py-6 items-center h-64">
@@ -15,7 +20,7 @@
                 <div class="w-full   ">
                     <img class="border object-cover" :src="blog?.cover_img" alt="image">
                 </div>
-                <div 
+                <div  @click="() => goToDetails(blog.id)"
                     class="w-full px-6 py-4 flex cursor-pointer z-10 items-center justify-between rounded-b-md  bg-white">
 
                     <button
@@ -40,9 +45,9 @@ const router = useRouter();
 
 
 
-// const goToDetails = (id: string | number) => {
-//     router.push(`./blogs/${id}`);
-// };
+const goToDetails = (id: string | number) => {
+    router.push(`./blogs/${id}`);
+};
 </script>
 
 <style scoped>
