@@ -13,11 +13,11 @@
         <div class="flex flex-col items-start justify-center gap-5">
           <p class="text-white md:w-1/2 text-xl">{{ card.description }}</p>
         </div>
-        <div class="flex flex-col items-start justify-center gap-5">
-          <a
+        <div @click="goToDetails" class="flex flex-col items-start justify-center gap-5">
+          <p
             class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
-            href="/"
-            >Ətraflı oxu</a
+            
+            >Ətraflı oxu</p
           >
         </div>
       </div>
@@ -31,11 +31,11 @@
         <div class="flex flex-col items-start justify-center gap-5">
           <p class="text-white w-full  md:w-1/2 text-xl">{{ card.description }}</p>
         </div>
-        <div class="flex flex-col items-start justify-center gap-5">
-          <a
+        <div  @click="goToDetails"  class="flex flex-col items-start justify-center gap-5">
+          <p
             class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
-            href="/"
-            >Ətraflı oxu</a
+            
+            >Ətraflı oxu</p
           >
         </div>
       </div>
@@ -51,10 +51,16 @@
 </template>
 
 <script setup>
-defineProps({
+import { useRouter } from 'vue-router';
+const props = defineProps({
   card: Object,
   index: Number
 })
+
+const router = useRouter();
+const goToDetails = () => {
+  router.push(`/services/${props.card.id}`);
+};
 </script>
 
 

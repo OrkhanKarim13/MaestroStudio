@@ -11,7 +11,11 @@ export default <Partial<Config>> {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      lineHeight: {
+        '100': '100px',
+      },
+    },
   },
   plugins: [],
 }

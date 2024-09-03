@@ -9,7 +9,7 @@
 <template>
   <div
     class=" text-black w-full bg-white p-4 lg:p-9"
-    :class="{ 'absolute w-full  top-0 left-0': menu }"
+    :class="{ 'absolute w-full  top-0 left-0 z-[50]': menu }"
   >
     <div class=" w-full justify-between flex ">
       
@@ -25,14 +25,14 @@
       <!-- Desktop nav list -->
       <nav class=" hidden md:border md:border-blue-500 md:rounded-full sm:flex items-center">
         <ul class="flex">
-          <li class="px-8 py-4 block text-black font-aspekta uppercase hover:scale-[1.03]" v-for="link in links">
+          <li class="px-8 py-4 block  text-black font-aspekta uppercase hover:scale-[1.03]" v-for="link in links">
             <NuxtLink :to="localePath({ name: link.name})">{{ link.title.en }}</NuxtLink>
           </li>
         </ul>
       </nav>
       <!-- Mobile icon -->
         <div
-          class="ml-auto sm:hidden p-6"
+          class="ml-auto  sm:hidden p-6"
           @click="menu = !menu"
         >
         <svg class=" w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@
       </div>
       <!-- Mobile nav list -->
       <nav v-show="menu" class="w-full">
-        <ul class="flex flex-col text-center">
+        <ul class="flex flex-col bg-white text-center">
           <li v-for="link in links" :key="link.name" class="px-8 py-4 text-black hover:text-blue-700">
             <NuxtLink :to="localePath({ name: link.name })">{{ link.title.en }}</NuxtLink>
           </li>
