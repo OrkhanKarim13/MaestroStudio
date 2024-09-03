@@ -1,9 +1,9 @@
 <template>
     <div v-if="service" class="md:mx-9 md:mb-6 md:rounded-md">
-        <div class="bg-[#0047FF] p-12 w-full md:rounded-md">
+        <div class="bg-[#0047FF] md:p-12 p-4 w-full md:rounded-md">
             <img class="md:rounded-md w-full  md:h-[600px] " :src="service?.cover_img" alt="image" />
             <div class="flex flex-col gap-6 py-9">
-                <h3 data-aos="fade-up" class="text-white text-7xl leading-100">{{ service?.title }}</h3>
+                <h3 data-aos="fade-up" class="text-white text-[40px] md:text-7xl md:leading-100">{{ service?.title }}</h3>
                 <div class="flex flex-col items-start justify-center gap-5">
                     <p class="text-white  text-xl">{{ service?.content }}</p>
                 </div>

@@ -1,9 +1,9 @@
 a<template>
   <section class="sm:mx-9  sm:my-6">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 sm:gap-6">
       <a href="https://aralgroupbaku.com/en" target="_blank">
         <div
-        class="relative bg-white border-4 border-black w-full md:rounded-md h-[200px] lg:w-[720px] lg:h-[350px] shadow-md">
+        class="relative bg-white border-4 border-black w-full md:rounded-md  h-[200px]  lg:h-[350px] shadow-md">
 
         <!-- Background GIF -->
         <img class="absolute inset-0 w-full h-full p-1  md:block object-cover" src="../../public/images/aral-group-hero.png"
