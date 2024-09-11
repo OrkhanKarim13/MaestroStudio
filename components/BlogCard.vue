@@ -2,7 +2,7 @@
   <div class="border flex flex-col items-center justify-center rounded-md">
     <div class="w-full flex flex-col items-start justify-center bg-white rounded-t-md  p-6 ">
       <div class="md:h-[70px]">
-        <h4 class=" lg:text-[24px] font-semibold leading-normal">{{ blog?.title }}
+        <h4 class=" lg:text-[24px] font-semibold leading-normal">{{ blog?.title[locale] }}
         </h4>
       </div>
       <span>{{ blog?.posted_date }}</span>
@@ -28,7 +28,8 @@ const props = defineProps({
     required: true
   }
 });
-
+import { useI18n } from 'vue-i18n';
+const { locale } = useI18n()
 const router = useRouter();
 
 const goToDetails = () => {

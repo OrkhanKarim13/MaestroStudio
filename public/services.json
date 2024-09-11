@@ -1,59 +1,142 @@
 [
   {
-    "id":1,
-    "title": "Layihənin idarə olunması",
-    "description": "Maestro Studio, müştərilərin layihələrinin effektiv şəkildə planlaşdırılması və idarə olunması üçün effektiv layihə idarəsi xidməti təklif edir.",
+    "id": 1,
+    "title": {
+      "az": "Layihənin idarə olunması",
+      "ru": "Управление проектом",
+      "en": "Project Management"
+    },
+    "description": {
+      "az": "Maestro Studio, müştərilərin layihələrinin effektiv şəkildə planlaşdırılması və idarə olunması üçün effektiv layihə idarəsi xidməti təklif edir.",
+      "ru": "Maestro Studio предлагает услугу эффективного управления проектами для эффективного планирования и управления проектами клиентов.",
+      "en": "Maestro Studio offers an effective project management service for the efficient planning and management of clients' projects."
+    },
+    "content": {
+      "az": "Müştərilərimizin layihələrinin uğurlu nəticələr əldə etməsi üçün layihə idarə olunması xidmətimiz çərçivəsində, bizim komandamız müştərilərimizə dəyərli və effektiv layihə idarəsi təmin edir. Bizim idarə etmə prosesimiz, layihələrimizin müvafiq zamanda, bütdə ilə və keyfiyyət standartlarına uyğun şəkildə idarə olunmasını təmin edir. Maestro Studio komandası müştərilərin layihələrinin hər bir detallarına diqqət yetirərək, onların layihələrinin uğurlu olmasına çalışır. Bizim məqsədimiz, müştərilərimizin layihələrini planlaşdırmaq və idarə etməklə onların fəaliyyətlərinə dəyər əlavə etməkdir.",
+      "ru": "В рамках наших услуг по управлению проектами наша команда предоставляет нашим клиентам ценное и эффективное управление проектами, чтобы гарантировать успешные результаты проектов наших клиентов. Наш процесс управления гарантирует, что наши проекты выполняются вовремя, добросовестно и в соответствии со стандартами качества. Команда студии Maestro стремится сделать свои проекты успешными, уделяя внимание каждой детали проектов своих клиентов. Наша цель — повысить ценность деятельности наших клиентов путем планирования и управления их проектами.",
+      "en": "As part of our project management service, our team provides our clients with valuable and effective project management to ensure that our clients' projects achieve successful outcomes. Our management process ensures that our projects are managed on time, with integrity and in accordance with quality standards. The Maestro Studio team strives to make their projects successful, paying attention to every detail of their clients' projects. Our goal is to add value to our clients' operations by planning and managing their projects."
+    },
     "card_img": "/images/project-management.png",
-    "cover_img":"/images/services-cover.webp",
-    "content": "Müştərilərimizin layihələrinin uğurlu nəticələr əldə etməsi üçün layihə idarə olunması xidmətimiz çərçivəsində, bizim komandamız müştərilərimizə dəyərli və effektiv layihə idarəsi təmin edir. Bizim idarə etmə prosesimiz, layihələrimizin müvafiq zamanda, bütdə ilə və keyfiyyət standartlarına uyğun şəkildə idarə olunmasını təmin edir. Maestro Studio komandası müştərilərin layihələrinin hər bir detallarına diqqət yetirərək, onların layihələrinin uğurlu olmasına çalışır. Bizim məqsədimiz, müştərilərimizin layihələrini planlaşdırmaq və idarə etməklə onların fəaliyyətlərinə dəyər əlavə etməkdir."
+    "cover_img": "/images/service-cover.png"
   },
   {
-    "id":2,
-    "title": "Mobil tətbiqlərin yaradılması və mövcud tətbiqdə dəyişikliklərin edilməsi",
-    "description": "Maestro Studio, müştərilərinin mobil tətbiqlər üçün sürətli, innovativ və effektiv həllər tapmasına kömək edən peşəkar bir komandadır.",
-    "content": "Maestro Studio, müştərilərinin mobil tətbiqlər üçün sürətli, innovativ və effektiv həllər tapmasına kömək edir. Bizim  peşəkar komandamız, sizin fikirlərinizi və iş tələblərinizi əks etdirən, keyfiyyətli mobil tətbiqlər hazırlayır və mövcud tətbiqləri dəyişdirir. Biz müştərilərimizin tələblərini başa düşmək və onların bizneslərinin inkişafına yardım etmək üçün hər bir layihəmizə fərdi yanaşırıq. Müştərilərimizin mobil tətbiqlərinin istənilən mərhələsində dəstək verərək, onların layihələrini müvafiq olaraq həyata keçirməkdə kömək edirik. Bu yolla, müştərilərimiz öz fikirlərini və işlərini təqdim edə bilər və fəaliyyətə hazır mobil tətbiqlər əldə edə bilərlər.",
+    "id": 2,
+    "title": {
+      "az": "Mobil tətbiqlərin yaradılması və mövcud tətbiqdə dəyişikliklərin edilməsi",
+      "ru": "Создание мобильных приложений и изменение существующих приложений",
+      "en": "Mobile App Development and Modification of Existing Apps"
+    },
+    "description": {
+      "az": "Maestro Studio, müştərilərinin mobil tətbiqlər üçün sürətli, innovativ və effektiv həllər tapmasına kömək edən peşəkar bir komandadır.",
+      "ru": "Maestro Studio – это профессиональная команда, помогающая клиентам находить быстрые, инновационные и эффективные решения для мобильных приложений.",
+      "en": "Maestro Studio is a professional team that helps clients find fast, innovative, and effective solutions for mobile apps."
+    },
+    "content": {
+      "az": "Maestro Studio, müştərilərinin mobil tətbiqlər üçün sürətli, innovativ və effektiv həllər tapmasına kömək edir. Bizim  peşəkar komandamız, sizin fikirlərinizi və iş tələblərinizi əks etdirən, keyfiyyətli mobil tətbiqlər hazırlayır və mövcud tətbiqləri dəyişdirir. Biz müştərilərimizin tələblərini başa düşmək və onların bizneslərinin inkişafına yardım etmək üçün hər bir layihəmizə fərdi yanaşırıq. Müştərilərimizin mobil tətbiqlərinin istənilən mərhələsində dəstək verərək, onların layihələrini müvafiq olaraq həyata keçirməkdə kömək edirik. Bu yolla, müştərilərimiz öz fikirlərini və işlərini təqdim edə bilər və fəaliyyətə hazır mobil tətbiqlər əldə edə bilərlər.",
+      "ru": "Maestro Studio помогает своим клиентам находить быстрые, инновационные и эффективные решения для мобильных приложений. Наша профессиональная команда разрабатывает качественные мобильные приложения и модифицирует существующие приложения, которые отражают ваши идеи и требования бизнеса. Мы подходим к каждому проекту индивидуально, чтобы понять требования наших клиентов и помочь им развивать свой бизнес. Мы поддерживаем наших клиентов на любом этапе их мобильных приложений и помогаем им реализовать свои проекты соответствующим образом. Таким образом, наши клиенты могут поделиться своими идеями и работами и получить готовые к использованию мобильные приложения.",
+      "en": "Maestro Studio helps its clients find fast, innovative and effective solutions for mobile applications. Our professional team develops quality mobile apps and modifies existing apps that reflect your ideas and business requirements. We approach each project individually to understand our clients' requirements and help them grow their businesses. We support our clients at any stage of their mobile applications and help them implement their projects accordingly. This way, our customers can submit their ideas and work and get ready-to-use mobile applications."
+    },
     "card_img": "/images/service-mobile-app-dev.png",
-    "cover_img":"/images/services-cover.webp"
+    "cover_img": "/images/service-cover.png"
   },
   {
     "id": 3,
-    "title": "Proqramlaşdırma kurslarının təşkili",
-    "description": "Maestro Studio, IT və proqramlaşdırma sahələrində 6 yaşından 16 yaşa qədər olan uşaqlar və böyüklər üçün kurslar təşkil edir və təlim sistemini daim inkişaf etdirərək ən aktual bilikləri, kompleks təlim proqramlarını, müəllim-praktikləri və effektiv tədris metodikasını təqdim edir.",
+    "title": {
+      "az": "Proqramlaşdırma kurslarının təşkili",
+      "ru": "Организация курсов программирования",
+      "en": "Programming Courses"
+    },
+    "description": {
+      "az": "Maestro Studio, IT və proqramlaşdırma sahələrində 6 yaşından 16 yaşa qədər olan uşaqlar və böyüklər üçün kurslar təşkil edir.",
+      "ru": "Maestro Studio организует курсы по ИТ и программированию для детей и взрослых в возрасте от 6 до 16 лет.",
+      "en": "Maestro Studio organizes IT and programming courses for children and adults aged 6 to 16."
+    },
+    "content": {
+      "az": "Maestro Studio,  İT və proqramlaşdırma sahəsində kurslar təşkil edir. Kurslarımız 6 yaşından 16 yaşa qədər olan uşaqlar və böyüklər üçün təklif olunur. Biz təlim sistemimizi davamlı olaraq inkişaf edən İT sahəsinə uyğunlaşdırırıq və bu səbəbdən də, ən aktual biliklər, kompleks təlim proqramları, müəllim-praktiklər və effektiv tədris metodikası əsas üstün cəhətlərimizdir. Biz, hər bir tələbənin potensialını maksimum səviyyəyə çatdırmağı hədəfləyirik. Kurslarımız interaktiv şəkildə təşkil olunur və hər bir tələbəyə individuallaşdırılmış təlim proqramı təklif edilir",
+      "ru": "Студия Маэстро организует курсы по информационным технологиям и программированию. Наши курсы проводятся для детей и взрослых от 6 до 16 лет. Мы адаптируем нашу систему обучения к постоянно развивающейся IT-сфере, а потому самые актуальные знания, комплексные программы обучения, преподаватели-практики и эффективная методика преподавания – наши главные преимущества. Мы стремимся максимально раскрыть потенциал каждого студента. Наши курсы организованы в интерактивном режиме, и каждому студенту предлагается индивидуальная программа обучения.",
+      "en": "Maestro Studio organizes courses in IT and programming. Our courses are offered for children and adults from 6 to 16 years old. We adapt our training system to the constantly developing IT field, and therefore, the most relevant knowledge, complex training programs, teachers-practitioners and effective teaching methodology are our main advantages. We aim to maximize the potential of each student. Our courses are organized interactively and each student is offered an individualized training program"
+    },
     "card_img": "/images/maestro-school.jpg",
-    "cover_img":"/images/services-cover.webp",
-    "content": "Maestro Studio,  İT və proqramlaşdırma sahəsində kurslar təşkil edir. Kurslarımız 6 yaşından 16 yaşa qədər olan uşaqlar və böyüklər üçün təklif olunur. Biz təlim sistemimizi davamlı olaraq inkişaf edən İT sahəsinə uyğunlaşdırırıq və bu səbəbdən də, ən aktual biliklər, kompleks təlim proqramları, müəllim-praktiklər və effektiv tədris metodikası əsas üstün cəhətlərimizdir. Biz, hər bir tələbənin potensialını maksimum səviyyəyə çatdırmağı hədəfləyirik. Kurslarımız interaktiv şəkildə təşkil olunur və hər bir tələbəyə individuallaşdırılmış təlim proqramı təklif edilir"
+    "cover_img": "/images/service-cover.png"
   },
   {
     "id": 4,
-    "title": "Təşkilati transformasiya",
-    "description": "Maestro Studio, şirkətlərin iş proseslərini və strukturlarını yeniləmək və müştəri tələblərinə daha sürətli cavab vermək üçün təşkilati transformasiya xidməti təklif edir.",
+    "title": {
+      "az": "Təşkilati transformasiya",
+      "ru": "Организационная трансформация",
+      "en": "Organizational Transformation"
+    },
+    "description": {
+      "az": "Maestro Studio, şirkətlərin iş proseslərini və strukturlarını yeniləmək və müştəri tələblərinə daha sürətli cavab vermək üçün təşkilati transformasiya xidməti təklif edir.",
+      "ru": "Maestro Studio предлагает услугу организационной трансформации, позволяющую обновить бизнес-процессы и структуры компаний и быстрее реагировать на запросы клиентов.",
+      "en": "Maestro Studio offers an organizational transformation service to update companies' business processes and structures and respond faster to customer demands."
+    },
+    "content": {
+      "az": "Maestro Studio, müştərilərinin işlərini daha effektiv hala gətirmək üçün təşkilati transformasiya xidməti təklif edir. Bu xidmət, şirkətlərin iş proseslərini və strukturlarını yeniləmələrini, effektivliyi artırmaqlarını və müştəri tələblərinə daha sürətli cavab verə bilmələrini təmin edir. Bizim  komandamız, müştərinin işinə və məqsədlərinə uyğun, innovativ yanaşmalar və texnologiyalar tətbiq edir. Təşkilati transformasiya müştəri şəbəkənizi və daxili təşkilatınızı dərindən anlamağa, potensial mövcud problemləri yoxlamağa və optimal həll yolları tapmağa imkan verir. Biz, müştərilərimizin işinin möhkəm və uğurlu olmasına yardım edirik, onların bazar səhnəsində liderliyini möhkəmləndiririk.",
+      "ru": "Студия «Маэстро» предлагает услугу организационной трансформации, позволяющую сделать работу своих клиентов более эффективной. Эта услуга позволяет компаниям обновлять свои бизнес-процессы и структуры, повышать эффективность и быстрее реагировать на запросы клиентов. Наша команда применяет инновационные подходы и технологии, соответствующие бизнесу и целям клиента. Организационная трансформация позволяет глубже понять вашу клиентскую сеть и внутреннюю организацию, изучить потенциально существующие проблемы и найти оптимальные решения. Мы помогаем бизнесу наших клиентов быть сильным и успешным, укрепляем их лидерство на рынке.",
+      "en": "Maestro Studio offers an organizational transformation service to make its clients' jobs more effective. This service enables companies to update their business processes and structures, increase efficiency and respond faster to customer demands. Our team applies innovative approaches and technologies to suit the client's business and goals. Organizational transformation allows you to deeply understand your customer network and internal organization, examine potential existing problems and find optimal solutions. We help the business of our clients to be strong and successful, we strengthen their leadership in the market scene."
+    },
     "card_img": "/images/service-technical-support.png",
-    "content": "Maestro Studio, müştərilərinin işlərini daha effektiv hala gətirmək üçün təşkilati transformasiya xidməti təklif edir. Bu xidmət, şirkətlərin iş proseslərini və strukturlarını yeniləmələrini, effektivliyi artırmaqlarını və müştəri tələblərinə daha sürətli cavab verə bilmələrini təmin edir. Bizim  komandamız, müştərinin işinə və məqsədlərinə uyğun, innovativ yanaşmalar və texnologiyalar tətbiq edir. Təşkilati transformasiya müştəri şəbəkənizi və daxili təşkilatınızı dərindən anlamağa, potensial mövcud problemləri yoxlamağa və optimal həll yolları tapmağa imkan verir. Biz, müştərilərimizin işinin möhkəm və uğurlu olmasına yardım edirik, onların bazar səhnəsində liderliyini möhkəmləndiririk."
+    "cover_img": "/images/service-cover.png"
   },
   {
     "id": 5,
-    "title": "Təşkilati və Biznes Strategiyasının İnkişafı",
-    "description": "Maestro Studio müştərilərinin işlərini effektiv şəkildə idarə etmək və biznes strategiyalarını inkişaf etdirməkdə kömək edən təşkilat və biznes strategiyasının inkişafı xidməti təklif edir.",
+    "title": {
+      "az": "Təşkilati və Biznes Strategiyasının İnkişafı",
+      "ru": "Развитие организационной и бизнес-стратегии",
+      "en": "Development of Organizational and Business Strategy"
+    },
+    "description": {
+      "az": "Maestro Studio müştərilərinin işlərini effektiv şəkildə idarə etmək və biznes strategiyalarını inkişaf etdirməkdə kömək edən təşkilat və biznes strategiyasının inkişafı xidməti təklif edir.",
+      "ru": "Maestro Studio предлагает услуги по разработке организационной и бизнес-стратегии, которые помогают своим клиентам эффективно управлять своими делами и разрабатывать бизнес-стратегии.",
+      "en": "Maestro Studio offers an organization and business strategy development service that helps its clients effectively manage their affairs and develop their business strategies."
+    },
+    "content": {
+      "az": "Maestro Studio, müştərilərinin təşkilatlarının və iş strategiyalarının inkişafına dəstək olmaq üçün öz xidmətlərindən biri olan təşkilat və biznes strategiyasının inkişafı xidməti təklif edir. Biznes sahəsində geniş təcrübəyə malik ekspertlərimiz, müştərilərimizin tələblərinə və məqsədlərinə uyğunlaşdırılmış həllər təqdim edir. Bu xidmət vasitəsilə müştərilərimiz təşkilatlarını daha effektiv və sürətli şəkildə idarə etməkdə və iş strategiyalarını inkişaf etdirməkdə kömək alırlar.Maestro Studio, müştərilərinin fəaliyyətlərini təhlil edir, effektiv prosesləri və strategiyaları təklif edir, iş planlarını hazırlayır və tətbiq edir. Biz, hər bir müştərimizə fərqli və qiymətli yanaşır, onların məqsədlərinə nail olmaları üçün səmərəli strategiya və həllər təklif edirik.",
+      "ru": "Maestro Studio предлагает разработку организационной и бизнес-стратегии в качестве одной из своих услуг для поддержки развития организаций и бизнес-стратегий своих клиентов. Наши специалисты с большим опытом работы в сфере бизнеса предоставляют решения, адаптированные к требованиям и целям наших клиентов. Благодаря этой услуге наши клиенты получают помощь в более эффективном и быстром управлении своей организацией, а также в разработке бизнес-стратегий. Maestro Studio анализирует деятельность своих клиентов, предлагает эффективные процессы и стратегии, готовит и реализует бизнес-планы. Мы относимся к каждому нашему клиенту по-разному, ценим его и предлагаем эффективные стратегии и решения, которые помогут им достичь своих целей.",
+      "en": "Maestro Studio offers organization and business strategy development as one of its services to support the development of its clients' organizations and business strategies. Our experts with extensive experience in the field of business provide solutions adapted to the requirements and goals of our clients. Through this service, our clients receive help in managing their organizations more efficiently and quickly and in developing business strategies. Maestro Studio analyzes the activities of its clients, proposes effective processes and strategies, prepares and implements business plans. We treat each of our clients differently and value them, and offer effective strategies and solutions to help them achieve their goals."
+    },
     "card_img": "/images/blog-carieer.png",
-    "cover_img":"/images/services-cover.webp",
-    "content": "Maestro Studio, müştərilərinin təşkilatlarının və iş strategiyalarının inkişafına dəstək olmaq üçün öz xidmətlərindən biri olan təşkilat və biznes strategiyasının inkişafı xidməti təklif edir. Biznes sahəsində geniş təcrübəyə malik ekspertlərimiz, müştərilərimizin tələblərinə və məqsədlərinə uyğunlaşdırılmış həllər təqdim edir. Bu xidmət vasitəsilə müştərilərimiz təşkilatlarını daha effektiv və sürətli şəkildə idarə etməkdə və iş strategiyalarını inkişaf etdirməkdə kömək alırlar.Maestro Studio, müştərilərinin fəaliyyətlərini təhlil edir, effektiv prosesləri və strategiyaları təklif edir, iş planlarını hazırlayır və tətbiq edir. Biz, hər bir müştərimizə fərqli və qiymətli yanaşır, onların məqsədlərinə nail olmaları üçün səmərəli strategiya və həllər təklif edirik."
+    "cover_img": "/images/service-cover.png"
   },
   {
     "id": 6,
-    "title": "Təşkilati və Fərdi Kouçinq",
-    "description": "Maestro Studio, təşkilati və fərdi kouçinq xidmətləri ilə müştərilərinin həyatında və iş fəaliyyətində dəyişikliklər yaratmağı hədəfləyir və onlara hədəflərinə çatmaq üçün təsirli strategiyalar təklif edir.",
+    "title": {
+      "az": "Təşkilati və Fərdi Kouçinq",
+      "ru": "Организационный и индивидуальный коучинг",
+      "en": "Organizational and Personal Coaching"
+    },
+    "description": {
+      "az": "Maestro Studio, təşkilati və fərdi kouçinq xidmətləri ilə müştərilərinin həyatında və iş fəaliyyətində dəyişikliklər yaratmağı hədəfləyir və onlara hədəflərinə çatmaq üçün təsirli strategiyalar təklif edir.",
+      "ru": "Maestro Studio стремится внести изменения в жизнь и эффективность бизнеса своих клиентов с помощью услуг организационного и индивидуального коучинга и предлагает им эффективные стратегии для достижения своих целей.",
+      "en": "Maestro Studio aims to create changes in the lives and business performance of its clients with organizational and individual coaching services and offers them effective strategies to achieve their goals."
+    },
+    "content": {
+      "az": "Maestro Studio, təşkilati və fərdi kouçinq xidmətləri ilə müştərilərinin həyatında və iş fəaliyyətində dəyişikliklər yaratmağı hədəfləyir. Təşkilati kouçinq proqramları, şirkətlərin strategiyasını gücləndirməyə, iş performansını artırmağa və komanda üzvlərinin potensialını artırmağa kömək edir. Fərdi kouçinq sessiyaları isə fərdlər öz potensiallarını açığa çıxarmaq, öz inkişaf yolunda hədəflərinə nail olmaq üçün dəstək olur. Maestro Studio'nun təcrübəli kouçları, müştərilərinin hədəflərinə necə çatmalılarını anlamaq və onlara hədəflərinə çatmaq üçün təsirli strategiyalar təklif etmək üçün müştəriləri ilə birlikdə çalışırlar.",
+      "ru": "Maestro Studio стремится внести изменения в жизнь и эффективность бизнеса своих клиентов с помощью услуг организационного и индивидуального коучинга. Программы организационного коучинга помогают компаниям укрепить свою стратегию, повысить эффективность бизнеса и повысить потенциал членов команды. Индивидуальные коуч-сессии помогают людям раскрыть свой потенциал и достичь поставленных целей в своем развитии. Опытные тренеры Maestro Studio работают со своими клиентами, чтобы понять, как достичь своих целей, и предоставить им эффективные стратегии для достижения своих целей.",
+      "en": "Maestro Studio aims to create changes in the lives and business performance of its clients with organizational and individual coaching services. Organizational coaching programs help companies strengthen their strategy, improve business performance and increase the potential of team members. Individual coaching sessions support individuals to reveal their potential and achieve their goals in their development. Maestro Studio's experienced coaches work with their clients to understand how to achieve their goals and provide them with effective strategies to achieve their goals."
+    },
     "card_img": "/images/service-technical-support-web.png",
-    "cover_img":"/images/services-cover.webp",
-    "content": "Maestro Studio, təşkilati və fərdi kouçinq xidmətləri ilə müştərilərinin həyatında və iş fəaliyyətində dəyişikliklər yaratmağı hədəfləyir. Təşkilati kouçinq proqramları, şirkətlərin strategiyasını gücləndirməyə, iş performansını artırmağa və komanda üzvlərinin potensialını artırmağa kömək edir. Fərdi kouçinq sessiyaları isə fərdlər öz potensiallarını açığa çıxarmaq, öz inkişaf yolunda hədəflərinə nail olmaq üçün dəstək olur. Maestro Studio'nun təcrübəli kouçları, müştərilərinin hədəflərinə necə çatmalılarını anlamaq və onlara hədəflərinə çatmaq üçün təsirli strategiyalar təklif etmək üçün müştəriləri ilə birlikdə çalışırlar."
+    "cover_img": "/images/service-cover.png"
   },
   {
     "id": 7,
-    "title": "Veb saytların yaradılması və mövcud saytda dəyişikliklərin edilməsi",
-    "description": "Maestro Studio, müştərilərinizin şirkətinizi və xidmətlərinizi daha yaxından tanıması üçün effektiv veb saytlar yaradır, onlara günün hər saatında əlçatan bir alış-veriş təcrübəsi təmin edir",
+    "title": {
+      "az": "Veb saytların yaradılması və mövcud saytda dəyişikliklərin edilməsi",
+      "ru": "Создание веб-сайтов и изменение существующих сайтов",
+      "en": "Website Development and Modification of Existing Websites"
+    },
+    "description": {
+      "az": "Maestro Studio, müştərilərinizin şirkətinizi və xidmətlərinizi daha yaxından tanıması üçün effektiv veb saytlar yaradır, onlara günün hər saatında əlçatan bir alış-veriş təcrübəsi təmin edir.",
+      "ru": "Maestro Studio создает эффективные веб-сайты, позволяющие вашим клиентам лучше узнать вашу компанию и услуги, предоставляя им доступный опыт покупок в любое время суток.",
+      "en": "Maestro Studio creates effective websites for your customers to get to know your company and services better, providing them with an accessible shopping experience at any hour of the day"
+    },
+    "content": {
+      "az": "Maestro Studio, müştərilərinizin şirkətinizi və xidmətlərinizi daha yaxından tanıması üçün effektiv veb saytlar yaradır. Bu saytlar, potensial müştərilərinizin günün hər saatında və dünyanın hər yerində sizə çatmasını təmin edir. Maestro Studio'nun veb saytları, müştərilərinizin rahatlığını artıraraq onlara daha yaxşı bir alış-veriş təcrübəsi yaşatmaq məqsədilə hazırlanır. Veb saytınız vasitəsilə, müştəriləriniz işinizlə bağlı ən son yeniliklərdən xəbərdar olmaq istədiklərində, istədikləri vaxtda və istədikləri yerdə sizinlə əlaqə saxlaya bilərlər. Maestro Studio, müştərilərinizin etibarını qazanmaq və artırmaq üçün veb saytlarınızın dizaynı və funksiyalarına maksimum diqqət yetirir.",
+      "ru": "Maestro Studio создает эффективные веб-сайты, чтобы ваши клиенты могли лучше узнать вашу компанию и услуги. Эти сайты гарантируют, что ваши потенциальные клиенты смогут связаться с вами в любое время суток и в любой точке мира. Веб-сайты Maestro Studio созданы для повышения удобства ваших клиентов и предоставления им лучшего опыта покупок. Через ваш веб-сайт ваши клиенты могут оставаться на связи с вами в любое время и в любом месте, чтобы быть в курсе событий вашего бизнеса. Студия Maestro уделяет максимум внимания дизайну и функциональности ваших сайтов, чтобы завоевать и повысить доверие ваших клиентов.",
+      "en": "Maestro Studio creates effective websites for your customers to get to know your company and services better. These sites ensure that your potential customers reach you at any time of the day and anywhere in the world. Maestro Studio's websites are designed to improve the convenience of your customers and give them a better shopping experience. Through your website, your customers can stay in touch with you whenever and wherever they want to stay up-to-date with your business. Maestro Studio pays maximum attention to the design and functionality of your websites to gain and increase the trust of your customers."
+    },
     "card_img": "/images/service-crate-webs.png",
-    "cover_img":"/images/services-cover.webp",
-    "content": "Maestro Studio, müştərilərinizin şirkətinizi və xidmətlərinizi daha yaxından tanıması üçün effektiv veb saytlar yaradır. Bu saytlar, potensial müştərilərinizin günün hər saatında və dünyanın hər yerində sizə çatmasını təmin edir. Maestro Studio'nun veb saytları, müştərilərinizin rahatlığını artıraraq onlara daha yaxşı bir alış-veriş təcrübəsi yaşatmaq məqsədilə hazırlanır. Veb saytınız vasitəsilə, müştəriləriniz işinizlə bağlı ən son yeniliklərdən xəbərdar olmaq istədiklərində, istədikləri vaxtda və istədikləri yerdə sizinlə əlaqə saxlaya bilərlər. Maestro Studio, müştərilərinizin etibarını qazanmaq və artırmaq üçün veb saytlarınızın dizaynı və funksiyalarına maksimum diqqət yetirir."
+    "cover_img": "/images/service-cover.png"
   }
-  
-  
 ]

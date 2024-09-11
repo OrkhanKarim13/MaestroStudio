@@ -8,7 +8,7 @@
             
           </div>
           <div class="w-full">
-            <h2 data-aos="fade-left" class="text-6xl w-3/4 text-white leading-snug">{{ blog?.title }}</h2>
+            <h2 data-aos="fade-left" class="text-6xl w-3/4 text-white leading-snug">{{ blog?.title[locale] }}</h2>
 
           </div>
         </div>
@@ -18,13 +18,13 @@
             muted></video>
         </div>
         <div class="py-12 w-full text-center">
-          <p class="text-white  text-2xl text-justify w-2/3 mx-auto">{{ blog?.description }}</p>
+          <p class="text-white  text-2xl text-justify w-2/3 mx-auto">{{ blog?.description[locale] }}</p>
         </div>
         <div class=" w-2/3 mx-auto h-[450px] flex items-center justify-center"><img class="object-cover w-full h-full "
             :src="blog?.cover_img" alt="cover"></div>
         <div class="py-12 w-full text-center">
           <div class="text-white text-2xl text-justify flex flex-col items-start justify-center gap-4 w-2/3 mx-auto ">
-            {{ blog?.content }}
+            {{ blog?.content[locale] }}
           </div>
         </div>
       </div>
@@ -49,6 +49,8 @@ import { useRoute } from 'vue-router';
 
 const route = useRoute();
 const blog = ref(null);
+import { useI18n } from 'vue-i18n';
+const { locale } = useI18n()
 
 onMounted(async () => {
   const response = await fetch('/blogs.json');

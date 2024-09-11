@@ -26,7 +26,7 @@
             </div>
             <div class=" md:mx-auto flex flex-col gap-2 justify-start items-start px-4 md:py-6 ">
 
-                <p class="hover:scale-[1.05]">  <a class="text-large text-white font-normal leading-7 " href="https://maps.app.goo.gl/tQwRpnFet4RbGqRd9" target="_blank">Mərkəzi Bulvar küç, Bakı, Azərbaycan</a>
+                <p class="hover:scale-[1.05]">  <a class="text-large text-white font-normal leading-7 " href="https://maps.app.goo.gl/tQwRpnFet4RbGqRd9" target="_blank">{{ $t("our_address") }}</a>
                 </p>
                 <div class="w-full border-b border-white my-3"></div>
                 <p class="text-lg text-white leading-7 hover:scale-[1.05]"><a href="mailto:info@maestro.st">info@maestro.st</a>

@@ -1,7 +1,7 @@
 <template>
   <section
     class=" h-auto md:mx-9 md:mb-6 px-4 py-6 lg:p-12 flex flex-col items-center justify-center gap-8 md:gap-12 bg-[#0047FF] p-8 md:p-12 md:rounded-md ">
-    <h3 class=" text-white text-3xl font-bold leading-8 text-center md:text-left">Ən yaxşılarla tərəfdaş olmaqdan qürur duyuruq.
+    <h3 class=" text-white text-3xl font-bold leading-8 text-center md:text-left">{{ $t("partners") }}
       
     </h3>
     <div class="grid h-full w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 ">

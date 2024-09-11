@@ -5,13 +5,13 @@
     </div>
     <div class="flex flex-col items-center justify-center mx-auto gap-3">
       <h4 class="text-2xl text-black font-bold">
-       {{project.title}}
+       {{project.title[locale]}}
       </h4> 
  
     </div>
     <div class="w-full flex justify-start">
  
-    <button class="py-4 flex px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]" @click="goToDetails">Ətraflı bax</button>
+    <button class="py-4 flex px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]" @click="goToDetails">{{$t("see_more")}}</button>
     </div>
   </div>
 </template>
@@ -23,7 +23,8 @@ const props = defineProps(["project"])
 
 <script setup>
 import { useRouter } from 'vue-router';
-
+import { useI18n } from 'vue-i18n';
+const { locale } = useI18n()
 const props = defineProps({
   project: {
     type: Object,

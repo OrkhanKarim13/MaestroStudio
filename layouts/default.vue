@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'ADD PAGE NAME!',
+  title: '',
   titleTemplate: titleChunk => titleChunk ? `${titleChunk} - Maestro` : 'Maestro',
   meta: [
     { name: 'description', content: 'Hehe boi' },

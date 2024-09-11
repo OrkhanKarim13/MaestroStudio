@@ -2,6 +2,13 @@
   const menu = ref(false)
   const { getLinks } = useLinks()
   const links = getLinks({ names: ['about', 'services', 'projects', 'blogs', 'contact'] });
+  const switchLocalePath = useSwitchLocalePath()
+const props = defineProps({
+  isBlack: {
+    type: Boolean,
+    default: true
+  },
+})
 
 </script>
 
@@ -24,12 +31,22 @@
       
       <!-- Desktop nav list -->
       <nav class=" hidden md:border md:border-blue-500 md:rounded-full sm:flex items-center">
-        <ul class="flex">
+        <ul class="flex items-center">
           <li class="px-8 py-4 block  text-black font-aspekta uppercase hover:scale-[1.03]" v-for="link in links">
             <NuxtLink :to="localePath({ name: link.name})">{{ link.title.en }}</NuxtLink>
+            
           </li>
+          
+          
         </ul>
+        
       </nav>
+      <div class="flex gap-4 uppercase text-white px-8 py-4">
+    <NuxtLink title="Azərbaycan" :class="{'text-black': isBlack}" :to="switchLocalePath('az')">Aze</NuxtLink>
+    <NuxtLink :class="{'text-black': isBlack}" title="English" :to="switchLocalePath('en')">Eng</NuxtLink>
+    <NuxtLink :class="{'text-black': isBlack}" title="Russian" :to="switchLocalePath('ru')">Rus</NuxtLink>
+  </div>
+      
       <!-- Mobile icon -->
         <div
           class="ml-auto  sm:hidden p-6"
@@ -41,12 +58,14 @@
         </div>
       </div>
       <!-- Mobile nav list -->
-      <nav v-show="menu" class="w-full">
+      <nav v-show="menu" class="w-full flex items-center">
         <ul class="flex flex-col bg-white text-center">
           <li v-for="link in links" :key="link.name" class="px-8 py-4 text-black hover:text-blue-700">
             <NuxtLink :to="localePath({ name: link.name })">{{ link.title.en }}</NuxtLink>
           </li>
+          
       </ul>
+      
     </nav>
   </div>
 </template>
