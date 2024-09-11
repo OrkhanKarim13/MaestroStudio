@@ -18,12 +18,12 @@
             muted></video>
         </div>
         <div class="md:py-12 w-full text-center">
-          <p class="text-white  text-2xl text-justify p-6 md:w-2/3 mx-auto">{{ blog?.description[locale] }}</p>
+          <p class="text-white  text-2xl md:text-justify text-left p-6 md:w-2/3 mx-auto">{{ blog?.description[locale] }}</p>
         </div>
         <div class=" w-2/3 mx-auto md:h-[450px] flex items-center justify-center"><img class="object-cover w-full h-full "
             :src="blog?.cover_img" alt="cover"></div>
-        <div class="py-12 w-full text-center">
-          <div class="text-white text-2xl text-justify flex flex-col items-start justify-center p-6 gap-4 md:w-2/3 md:mx-auto ">
+        <div class="md:py-12 w-full text-center">
+          <div class="text-white text-2xl text-left md:text-justify flex flex-col items-start justify-center p-6 gap-4 md:w-2/3 md:mx-auto ">
             {{ blog?.content[locale] }}
           </div>
         </div>
