@@ -53,7 +53,7 @@
       <!-- Custom language dropdown -->
       <div class="relative  flex gap-4 uppercase text-black px-8 py-4">
         <div
-          class="cursor-pointer border flex gap-2  md:border md:border-blue-500 md:rounded-full px-4 py-2"
+          class="cursor-pointer md:border flex gap-2  md:border md:border-blue-500 md:rounded-full px-4 py-2"
           @click="toggleDropdown"
         >
           {{ languages.find(lang => lang.code === selectedLanguage).label }} <img src="../public/images/Frame.svg" alt="">
@@ -62,7 +62,7 @@
         <!-- Dropdown content -->
         <ul
           v-if="isDropdownOpen"
-          class="absolute top-14 w-[80px] bg-white border border-gray-300 rounded-lg mt-2 "
+          class="absolute top-14 w-[80px] z-50 bg-white border border-gray-300 rounded-lg mt-2 "
         >
           <li
             v-for="lang in languages"
