@@ -24,11 +24,11 @@ export default defineNuxtConfig({
     locales: [
       { code: 'en', name: 'English', iso: 'en-US', file: 'en.js' },
       { code: 'ru', name: 'Русский', iso: 'ru-RU', file: 'ru.js' },
-      { code: 'az', name: 'Azərbaycanca', iso: 'az-AZ', file: 'az.js' },
+      { code: 'az', name: 'Azərbaycan', iso: 'az-AZ', file: 'az.js' },
     ],
     lazy: true,
     langDir: 'translation',
-    defaultLocale: 'az',
+ 
   },
   // vite: {
   //   optimizeDeps: {

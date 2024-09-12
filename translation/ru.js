@@ -1,5 +1,5 @@
 export default {
-  page_not_found: 'rus ',
+  page_not_found: 'страница не найдена',
   contact: 'Контакт',
   we_make_it:"Мы сделаем это реальностью",
   coaching_and_business_studio:"Лучшая в своем классе студия коучинга и бизнес-консалтинга",
