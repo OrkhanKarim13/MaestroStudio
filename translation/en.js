@@ -26,8 +26,8 @@ export default {
   projects_we_provide:"Projects we provide",
   project_profile:"Project profile",
   about:"About us",
-  about_info:"To Maestro Studio customers is a coaching and business consulting studio that provides unique and effective business solutions. we, we approach our clients' projects based on speed and quality and support them every step of the way. At Maestro Studio, we also specialize in creating websites and mobile applications. Our experts, as in all other projects of our clients, their websites and mobile applications prepares with the highest quality standards."
-
+  about_info:"To Maestro Studio customers is a coaching and business consulting studio that provides unique and effective business solutions. we, we approach our clients' projects based on speed and quality and support them every step of the way. At Maestro Studio, we also specialize in creating websites and mobile applications. Our experts, as in all other projects of our clients, their websites and mobile applications prepares with the highest quality standards.",
+ your_message:"Your message"
 
   
 

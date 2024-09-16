@@ -12,10 +12,9 @@
 
           </div>
         </div>
-        <div class="w-full md:h-[500px]"><img class="block md:hidden object-cover w-full"
+        <div class="w-full md:h-[500px]"><img class="block  object-cover w-full"
             src="~/assets/images/Frame1222.svg" alt="cover">
-          <video class="hidden md:block object-cover h-full w-full" :src="blog?.cover_video" loop autoplay
-            muted></video>
+          
         </div>
         <div class="md:py-12 w-full text-center">
           <p class="text-white  text-2xl md:text-justify text-left p-6 md:w-2/3 mx-auto">{{ blog?.description[locale] }}</p>

@@ -27,7 +27,7 @@ export default {
   project_profile:"Layihə profili",
   about:"Haqqımızda",
   about_info:"Maestro Studio müştərilərinənikal və effektiv biznes həlləri təqdim edən kouçinq və biznes məsləhətləri studiyasıdır. Biz,müştərilərimizin layihələrinə sürət və keyfiyyət əsasında yanaşırıq və onları hər addımda dəstəkləyirik. Maestro Studio olaraq veb saytların və mobil tətbiqlərin yaradılmasında da ixtisaslaşmışıq. Bizim mütəxəssislərimiz, müştərilərimizin bütün digər layihələrində olduğu kimi, saytlarını və mobil tətbiqlərini də ən yüksək keyfiyyət standartları ilə hazırlayır.",
-
+  your_message:"məktub"
 
 
 

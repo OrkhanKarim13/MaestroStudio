@@ -4,7 +4,7 @@
       <div class="w-full md:h-[600px] ">
         <div class="video-container rounded-md">
           <video class="custom-video object-contain" autoplay loop muted >
-            <source  src="~/assets/videos/about.mp4" type="video/mp4">
+            <source  src="~/assets/videos/background_2.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>

@@ -15,7 +15,7 @@
         </div>
         <div @click="goToDetails" class="flex flex-col items-start justify-center gap-5">
           <p
-            class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
+            class="py-4 px-8 bg-white text-black cursor-pointer font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
             
             >{{$t("see_more")}}</p
           >
@@ -33,7 +33,7 @@
         </div>
         <div  @click="goToDetails"  class="flex flex-col items-start justify-center gap-5">
           <p
-            class="py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
+            class="py-4 px-8 bg-white text-black cursor-pointer font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
             
             >{{$t("see_more")}}</p
           >
