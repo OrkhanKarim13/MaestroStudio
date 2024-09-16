@@ -11,7 +11,7 @@
             </div>
         </div>
         <form @submit.prevent="submitForm"
-            class=" bg-[#0047FF] px-4 py-6  md:p-12 flex flex-col items-start justify-between   md:rounded-[10px]">
+            class=" bg-[#0047FF] px-4 py-6  md:p-12 flex flex-col items-start justify-between gap-6  md:rounded-[10px]">
             <input
                 class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white text-white font-semibold"
                 type="text" name="" v-model="form.name" id="" maxlength="30" :placeholder="$t('name_surname')">

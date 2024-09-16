@@ -4,7 +4,7 @@
       <h1 data-aos="fade-up"
         class="text-[45px]  lg:text-[90px] text-center lg:text-left font-normal  text-white w-full ">
         {{ $t("we_make_it") }}</h1>
-      <p data-aos="fade-up" class="text-white  text-2xl">{{ $t("coaching_and_business_studio") }}</p>
+      <p data-aos="fade-up" class="text-white text-center md:text-left  text-2xl">{{ $t("coaching_and_business_studio") }}</p>
       <NuxtLink
         class="w-full md:w-auto text-center text-[18px] md:text-center py-[18px] px-8 bg-white text-black font-semibold rounded-full uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]"
         :to="localePath('contact')">{{ $t("contact") }}</NuxtLink>
