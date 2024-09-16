@@ -15,6 +15,10 @@ export default <Partial<Config>> {
       lineHeight: {
         '100': '100px',
       },
+      fontWeight:{
+        '650': "650",
+        '750': "750"
+      }
     },
   },
   plugins: [],

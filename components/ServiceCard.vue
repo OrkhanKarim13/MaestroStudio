@@ -60,7 +60,10 @@ import { useI18n } from 'vue-i18n';
 const { locale } = useI18n()
 const router = useRouter();
 const goToDetails = () => {
-  router.push(`/services/${props.card.id}`);
+  const localeRoute = useLocaleRoute()
+  
+      const route = localeRoute({ path: '/services/' + props.card.id || 1 })
+    router.push(route)
 };
 </script>
 

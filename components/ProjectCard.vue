@@ -1,17 +1,18 @@
 <template>
-  <div class=" bg-white rounded-md px-4 py-6 md:px-16 md:py-12 flex flex-col items-center justify-center  gap-6">
-    <div class="">
+  <div class=" bg-white md:rounded-[10px] px-4 py-6 md:p-6 flex flex-col items-center justify-between  gap-6">
+    <div class="w-full h-[200px]">
       <img class="object-fit h-[210px] w-full " :src="project?.cover_img" alt="image">
     </div>
-    <div class="flex flex-col items-center justify-center mx-auto gap-3">
-      <h4 class="text-2xl text-black font-bold">
+    <div class="flex w-full md:h-[100px] mb-8 items-start flex-col  mx-auto gap-3">
+      <h4 class="text-[24px] text-black font-750">
        {{project.title[locale]}}
       </h4> 
+      <p class="font-lg text-[#222222] font-normal">{{project.description[locale]}}</p>
  
     </div>
     <div class="w-full flex justify-start">
  
-    <button class="py-4 flex px-8 border border-black rounded-full text-black font-semibold rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]" @click="goToDetails">{{$t("see_more")}}</button>
+    <button class="py-4 flex px-8 border border-black rounded-full text-black font-semibold text-lg rounded-ful uppercase hover:bg-[#fdfdfd] hover:scale-[1.01]" to="projects/1" @click="goToDetails">{{$t("see_more")}}</button>
     </div>
   </div>
 </template>
@@ -35,6 +36,10 @@ const props = defineProps({
 const router = useRouter();
 
 const goToDetails = () => {
-  router.push(`/projects/${props.project.id}`);
+  const localeRoute = useLocaleRoute()
+  
+      const route = localeRoute({ path: '/projects/' + props.project.id || 1 })
+    router.push(route)
+  // router.push(`./projects/${props.project.id}`);
 };
 </script>

@@ -7,6 +7,7 @@ export default {
   click_to_view:"Нажмите, чтобы посмотреть другие проекты",
   see_more:"Посмотреть больше",
   services_we_provide:"Услуги, которые мы предоставляем",
+  services:"Услуги",
   partners:"Партнеры",
   blog:"Блог",
   projects:"Проекты",

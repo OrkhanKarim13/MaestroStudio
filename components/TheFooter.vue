@@ -1,6 +1,6 @@
 <template>
     <footer class="md:mx-9 md:mb-6">
-        <div class="w-full grid grid-cols-1 lg:grid-cols-4 gap-6 md:px-16 py-6 md:rounded-md bg-[#0047FF] ">
+        <div class="w-full grid grid-cols-1 lg:grid-cols-4 gap-6 md:px-16 py-6 md:rounded-[10px] bg-[#0047FF] ">
             <div class=" md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 gap-6">
 
                 <img class="md:w-full" src="../assets/images/logowhite.svg" alt="logo">
@@ -35,27 +35,27 @@
                 <p class="text-lg text-white leading-7 hover:scale-[1.05]"><a href="tel:+994502998490">+994 50 299 84 90</a></p>
             </div>
             <div class=" md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
-                <p class="text-lg text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/about">About</nuxt-link>
+                <p class="text-lg text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/about">{{$t("about")}}</nuxt-link>
                 </p>
 
                 <div class="w-full border-b border-white my-3"></div>
-                <p class=" text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/services">Services</nuxt-link>
+                <p class=" text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/services">{{ $t("services") }}</nuxt-link>
                 </p>
                 <div class="w-full border-b border-white my-3"></div>
-                <p class="text-lg text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/projects">Projects</nuxt-link>
+                <p class="text-lg text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/projects">{{$t("projects")}}</nuxt-link>
                 </p>
                 
                 
                 
             </div>
             <div class=" md:mx-auto flex flex-col justify-start items-start px-4 md:py-6 ">
-                <p class="text-lg text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/about">Careers</nuxt-link>
+                <p class="text-lg text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/about">{{$t("about")}}</nuxt-link>
 
                 </p>
 
         
                 <div class="w-full border-b border-white my-3"></div>
-                <p class="text-lg text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/contact">Contact</nuxt-link>
+                <p class="text-lg text-white leading-7 hover:scale-[1.05]"><nuxt-link to="/contact">{{$t("contact")}}</nuxt-link>
                 </p>
 
             </div>
@@ -70,5 +70,7 @@
 </template>
 
 
-<script>
+<script setup>
+import { useI18n } from 'vue-i18n';
+ const { locale } = useI18n()
 </script>

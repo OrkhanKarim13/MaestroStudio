@@ -1,11 +1,11 @@
 <template>
-  <section class="md:mx-9 md:mb-6 bg-[#0047FF] px-4 py-6 lg:p-12 md:rounded-md">
+  <section class="md:mx-9 md:mb-6 bg-[#0047FF] px-4 py-6 lg:p-12 md:rounded-[10px]">
     <div class="flex flex-col gap-10">
       <div class="w-full grid grid-cols-1 md:grid-cols-5 items-center justify-between gap-6">
-        <h2 class="md:col-span-4 text-white text-3xl font-bold leading-10 text-center md:text-left">{{ $t("projects_we_provide") }}
+        <h2 class="md:col-span-4 text-white text-3xl font-750 leading-10 text-center md:text-left">{{ $t("projects_we_provide") }}
         </h2>
         <NuxtLink :to="localePath({ name: 'projects' })"
-          class="col-span-1 uppercase cursor-pointer  px-8 py-5 rounded-full bg-transparent border border-white  text-white font-semibold text-center hover:scale-[1.05] ">
+          class="col-span-1 uppercase cursor-pointer  px-8 py-[16px] rounded-full bg-transparent border border-white  text-white font-semibold text-center hover:scale-[1.05] ">
           {{$t("see_more")}}
         </NuxtLink>
       </div>

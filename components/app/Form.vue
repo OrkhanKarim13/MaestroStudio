@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 md:mx-9 md:my-6  md:gap-6">
-      <div class="bg-[#0047FF]  px-4 py-6 md:p-12 flex flex-col items-start justify-between  md:rounded-md">
-          <div class="w-4/5  text-white text-3xl lg:text-6xl font-bold leading-11">{{ $t("project_support") }}
+      <div class="bg-[#0047FF]  px-4 py-6 md:p-12 flex flex-col items-start justify-between  md:rounded-[10px]">
+          <div class="  text-white text-[64px] lg:text-[79px] font-750">{{ $t("project_support") }}
           </div>
           <div class="my-12 flex items-center justify-center ">
             <img src="@/assets/images/arraow_icon.svg" alt="arrow">
@@ -10,7 +10,7 @@
               <p class="text-white text-lg w-2/3 font-normal">{{ $t("call_us") }}</p>
           </div>
       </div>
-      <div class=" bg-[#0047FF] px-4 py-6 md:p-12 flex flex-col items-start justify-between gap-6  md:rounded-md">
+      <div class=" bg-[#0047FF] px-4 py-6 md:p-12 flex flex-col items-start justify-between gap-6  md:rounded-[10px]">
           <input
               class="w-full px-8 py-4 outline-none rounded-full bg-transparent border border-white text-white font-semibold"
               type="text" name="" id="" maxlength="30" :placeholder="$t('name_surname')">

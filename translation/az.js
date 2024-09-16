@@ -7,6 +7,7 @@ export default {
   click_to_view:"Digər layihələrə baxmaq üçün klikləyin",
    see_more:"Ətraflı bax",
    services_we_provide:"Təqdim etdiyimiz xidmətlər",
+   services:"Xidmətlər",
    partners:"Tərəfdaşlar",
   blog:"Blog",
   projects:"Layihələr",

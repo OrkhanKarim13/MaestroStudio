@@ -1,4 +1,4 @@
-a<template>
+<template>
   <section class="sm:mx-9  sm:my-6">
     <div class="grid grid-cols-1 sm:grid-cols-2 sm:gap-6">
       <a href="https://aralgroupbaku.com/en" target="_blank">
@@ -10,15 +10,15 @@ a<template>
         <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-black w-24 h-4 rounded-b-md"></div>
       </div>
       </a>
-      <div class="bg-[#0047FF] pt-6 px-4 pb-12 lg:p-12 flex flex-col gap-5  items-start justify-between lg:rounded-md ">
-        <h2 data-aos="fade-up" class="  text-white text-4xl font-bold leading-11">{{ $t("we_developed_for") }}</h2>
-        <div class="flex items-center justify-center">
+      <div class="bg-[#0047FF] pt-6 px-4 pb-12 lg:p-12 flex flex-col gap-5  items-start justify-between md:rounded-[10px] ">
+        <div class="flex items-center justify-center transform rotate-90 md:rotate-0 py-5">
           <AppIcon name="ArrowLeftLong" class="text-white" />
         </div>
-        <div class="flex flex-col items-start justify-center gap-5">
-          <p class="text-white text-lg w-full ">
+        <h2 data-aos="fade-up" class="  text-white text-[30px] font-750 leading-11">{{ $t("we_developed_for") }}</h2>
+        <div class="flex w-full md:w-auto flex-col items-start justify-center gap-5">
+          <p class="text-white text-lg font-normal w-full ">
             {{ $t("click_to_view") }}</p>
-          <a class="w-full md:w-auto text-center md:text-center py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
+          <a class="w-full  text-center md:text-center py-4 px-8 bg-white text-black font-semibold rounded-full hover:bg-[#fdfdfd] hover:scale-[1.01]"
             href="/projects">{{$t("see_more")}}</a>
         </div>
       </div>

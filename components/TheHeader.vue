@@ -3,6 +3,7 @@
   const { getLinks } = useLinks();
   const links = getLinks({ names: ['about', 'services', 'projects', 'blogs', 'contact'] });
   const switchLocalePath = useSwitchLocalePath();
+  const { locale } = useI18n()
 
   const props = defineProps({
     isBlack: {
@@ -44,8 +45,8 @@
       <!-- Desktop nav list -->
       <nav class="hidden md:border md:border-blue-500 md:rounded-full sm:flex items-center">
         <ul class="flex items-center">
-          <li class="px-8 py-4 block text-black font-aspekta uppercase hover:scale-[1.03]" v-for="link in links">
-            <NuxtLink :to="localePath({ name: link.name })">{{ link.title.en }}</NuxtLink>
+          <li class="sm:px-8 sm:py-4 block text-black font-aspekta uppercase hover:scale-[1.03]" v-for="link in links">
+            <NuxtLink :to="localePath({ name: link.name })">{{ link.title[locale]}}</NuxtLink>
           </li>
         </ul>
       </nav>
@@ -53,7 +54,7 @@
       <!-- Custom language dropdown -->
       <div class="relative  flex gap-4 uppercase text-black px-8 py-4">
         <div
-          class="cursor-pointer md:border flex gap-2  md:border md:border-blue-500 md:rounded-full px-4 py-2"
+          class="cursor-pointer  flex gap-2  md:border md:border-blue-500 md:rounded-full px-4 py-2"
           @click="toggleDropdown"
         >
           {{ languages.find(lang => lang.code === selectedLanguage).label }} <img src="../public/images/Frame.svg" alt="">

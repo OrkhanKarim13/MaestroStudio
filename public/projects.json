@@ -2,11 +2,27 @@
   {
     "id": 1,
     "createdDate": "01.01.2024",
-    "title": "MyBrands",
-    "description": "NOVCO şirkətlər qrupuna məxsus olan mağazalar MyBrands çətiri altında birləşmişdir. Şirkətin əsas fəaliyyət sahəsi pərakəndə ticarətdir. MYBRANDS.AZ saytı sizə dünya ölkələrindən dəbli məhsullar əldə etmək imkanı təqdim edir.",
+    "title": {
+      "az": "MyBrands",
+      "en": "MyBrands",
+      "ru": "MyBrands"
+    },
+    "description": {
+      "az": "NOVCO şirkətlər qrupuna məxsus olan mağazalar MyBrands çətiri altında birləşmişdir. Şirkətin əsas fəaliyyət sahəsi pərakəndə ticarətdir. MYBRANDS.AZ saytı sizə dünya ölkələrindən dəbli məhsullar əldə etmək imkanı təqdim edir.",
+      "en": "Stores belonging to the NOVCO group of companies are united under the MyBrands umbrella. The company's main activity is retail trade. The MYBRANDS.AZ website offers you the opportunity to acquire fashionable products from around the world.",
+      "ru": "Магазины, принадлежащие группе компаний NOVCO, объединены под брендом MyBrands. Основное направление деятельности компании – розничная торговля. Сайт MYBRANDS.AZ предоставляет вам возможность приобрести модные товары со всего мира."
+    },
     "cover_img": "/images/my-brands.png",
-    "background": "Şirkətin əsas fəaliyyət sahəsi pərakəndə ticarətdir. MyBrands, müştərilərə dünya standartlarında məhsullar təqdim edərək onların həyatını asanlaşdırmağı və keyfiyyətli alış-veriş imkanı yaratmağı hədəfləyir.",
-    "objective": "MyBrands.az saytının əsas məqsədi, müştərilərə dünya brendlərinin məhsullarına çatmaq imkanı yaradaraq onların tələblərini ən yaxşı şəkildə qarşılamadır. Sayt, müştərilərə geniş bir məhsul seçimi təklif edir və onlara dünya səviyyəsində keyfiyyətli alış-veriş imkanı verir. MyBrands.az, müştərilərinin ehtiyaclarını qarşılayaraq onların alış-veriş prosesini daha sürətli, asan və rahat hala gətirməyi hədəfləyir.",
+    "background": {
+      "az": "Şirkətin əsas fəaliyyət sahəsi pərakəndə ticarətdir. MyBrands, müştərilərə dünya standartlarında məhsullar təqdim edərək onların həyatını asanlaşdırmağı və keyfiyyətli alış-veriş imkanı yaratmağı hədəfləyir.",
+      "en": "The main area of activity of the company is retail trade. MyBrands aims to make customers' lives easier by offering products that meet world standards and creating a quality shopping experience.",
+      "ru": "Основная деятельность компании – розничная торговля. MyBrands стремится упростить жизнь клиентов, предлагая продукцию мировых стандартов и создавая качественный опыт покупок."
+    },
+    "objective": {
+      "az": "MyBrands.az saytının əsas məqsədi, müştərilərə dünya brendlərinin məhsullarına çatmaq imkanı yaradaraq onların tələblərini ən yaxşı şəkildə qarşılamadır. Sayt, müştərilərə geniş bir məhsul seçimi təklif edir və onlara dünya səviyyəsində keyfiyyətli alış-veriş imkanı verir. MyBrands.az, müştərilərinin ehtiyaclarını qarşılayaraq onların alış-veriş prosesini daha sürətli, asan və rahat hala gətirməyi hədəfləyir.",
+      "en": "The main goal of the MyBrands.az website is to provide customers with the opportunity to access products from global brands, meeting their needs in the best possible way. The site offers customers a wide range of products and provides a high-quality shopping experience. MyBrands.az aims to make the shopping process faster, easier, and more convenient for its customers.",
+      "ru": "Основная цель сайта MyBrands.az – предоставить клиентам возможность доступа к продукции мировых брендов, максимально удовлетворяя их потребности. Сайт предлагает клиентам широкий выбор товаров и обеспечивает качественный опыт покупок. MyBrands.az стремится сделать процесс покупок более быстрым, легким и удобным для своих клиентов."
+    },
     "screen_img": "/images/my-brands-web-screen-4.png",
     "screen_img_2": "/images/my-brands-web-screen-3.png",
     "screen_img_3": "/images/my-brands-web-screen-2.png",
@@ -15,11 +31,27 @@
   {
     "id": 2,
     "createdDate": "01.01.2024",
-    "title": "Aral Group",
-    "description": "Aral group” şirkəti Azərbaycanda təmir-tikinti sahəsində liderlərdən biridir. Əsası qoyulduqdan qısa müddət sonra ölkəmizin inşaat bazarına daxil olan şirkət gündən-günə Azərbaycanın gözəlliyinə öz tövhəsini verməkdədir.",
+    "title": {
+      "az": "Aral Group",
+      "en": "Aral Group",
+      "ru": "Aral Group"
+    },
+    "description": {
+      "az": "Aral group” şirkəti Azərbaycanda təmir-tikinti sahəsində liderlərdən biridir. Əsası qoyulduqdan qısa müddət sonra ölkəmizin inşaat bazarına daxil olan şirkət gündən-günə Azərbaycanın gözəlliyinə öz tövhəsini verməkdədir.",
+      "en": "Aral Group is one of the leaders in the construction and repair industry in Azerbaijan. Shortly after its establishment, the company entered the construction market of our country and continues to contribute to the beauty of Azerbaijan day by day.",
+      "ru": "Компания Aral Group является одной из лидеров в сфере ремонта и строительства в Азербайджане. Вскоре после своего создания компания вошла на рынок строительства страны и с каждым днем вносит свой вклад в красоту Азербайджана."
+    },
+    "background": {
+      "az": "'Aral Group', Azərbaycanda təmir-tikinti sahəsində liderlərdən biri olaraq tanınan bir şirkəttir. Şirkət, əsasını qoyduqdan qısa bir müddət sonra Azərbaycanın inşaat bazarına daxil olmuş və ölkənin gözəlliyinə töhfə verərək adından söz etdirmişdir. Aral Group, inkişaf etmiş infrastruktur, keyfiyyətli tikinti materialları və peşəkar kadrlarla özünü fərqləndirir.",
+      "en": "'Aral Group' is a company recognized as one of the leaders in the construction and repair sector in Azerbaijan. The company entered the construction market of Azerbaijan shortly after its establishment and has been contributing to the country's beauty ever since. Aral Group stands out with its developed infrastructure, quality construction materials, and professional staff.",
+      "ru": "'Aral Group' – компания, признанная одним из лидеров в области ремонта и строительства в Азербайджане. Компания вошла на рынок строительства в Азербайджане вскоре после своего создания и с тех пор вносит вклад в красоту страны. Aral Group выделяется своим развитым инфраструктурой, качественными строительными материалами и профессиональным персоналом."
+    },
+    "objective": {
+      "az": "'Aral Group'un əsas məqsədi, Azərbaycanın gözəlliyinə öz tövhəsini verməkdir. Şirkət, yaradılan layihələrlə ölkədə möhtəşəm tikinti və təmir işləri görərək mühiti dəyişdirməyə çalışır, müştərilərinin ehtiyaclarını başa düşərək, onlara mümkün olan ən yaxşı xidməti təqdim etməyə fokuslanır.",
+      "en": "The main goal of 'Aral Group' is to contribute to the beauty of Azerbaijan. The company aims to transform the environment by carrying out impressive construction and renovation works with its projects, focusing on understanding its clients' needs and providing them with the best possible service.",
+      "ru": "Основная цель 'Aral Group' – внести вклад в красоту Азербайджана. Компания стремится преобразовать окружающую среду, реализуя впечатляющие строительные и ремонтные проекты, сосредоточив внимание на понимании потребностей своих клиентов и предоставлении им наилучшего обслуживания."
+    },
     "cover_img": "/images/aral-group.png",
-    "background": "'Aral Group', Azərbaycanda təmir-tikinti sahəsində liderlərdən biri olaraq tanınan bir şirkəttir. Şirkət, əsasını qoyduqdan qısa bir müddət sonra Azərbaycanın inşaat bazarına daxil olmuş və ölkənin gözəlliyinə töhfə verərək adından söz etdirmişdir. Aral Group, inkişaf etmiş infrastruktur, keyfiyyətli tikinti materialları və peşəkar kadrlarla özünü fərqləndirir. ",
-    "objective": "'Aral Group'un əsas məqsədi, Azərbaycanın gözəlliyinə öz tövhəsini verməkdir. Şirkət, yaradılan layihələrlə ölkədə möhtəşəm tikinti və təmir işləri görərək mühiti dəyişdirməyə çalışır, müştərilərinin ehtiyaclarını başa düşərək, onlara mümkün olan ən yaxşı xidməti təqdim etməyə fokuslanır.",
     "screen_img": "/images/aral-web-screen.png",
     "screen_img_2": "/images/aral-web-screen-2.png",
     "screen_img_3": "/images/aral-web-screen-3.png",
@@ -28,11 +60,27 @@
   {
     "id": 3,
     "createdDate": "02.01.2024",
-    "title": "İZZİDONE",
-    "description": "İZZİ şəxsi və məişət işləri ilə əlaqədar peşəkar axtarışında olanları təcrübəli mütəxəssislərlə birləşdirən platformadır.",
+    "title": {
+      "az": "İZZİDONE",
+      "en": "IZZIDONE",
+      "ru": "IZZIDONE"
+    },
+    "description": {
+      "az": "İZZİ şəxsi və məişət işləri ilə əlaqədar peşəkar axtarışında olanları təcrübəli mütəxəssislərlə birləşdirən platformadır.",
+      "en": "IZZI is a platform that connects those in search of professional help with personal and household tasks with experienced specialists.",
+      "ru": "IZZI – это платформа, которая соединяет тех, кто ищет профессиональную помощь в личных и бытовых задачах, с опытными специалистами."
+    },
     "cover_img": "/images/izzi.png",
-    "background": "'İZZİ',  insanların həyatını asanlaşdırmağa və peşəkar təcrübəyə dəyər əlavə etməyə inanan bir komanda tərəfindən yaradılmışdır. Platform, istifadəçilərə geniş bir mütəxəssis bazası təqdim edərək onların işlərini effektiv şəkildə həll etmələrinə kömək edir.",
-    "objective": "İZZİ-nin məqsədi istifadəsi asan, bütün cihazlarda əlçatan və sürətli onlayn platforma vasitəsilə insanlara məişət problemlərini həll etməyə kömək etməkdir. Startap insanlara məişət problemlərini ən qısa müddətdə və ən sərfəli qiymətlə həll edə biləcək uyğun icraçını seçməkdə kömək etməklə yanaşı, təmizlik, gözəllik, tədbirlərin təşkil edilməsi, usta xidmətləri və s. kimi bir sıra xidmətlər təklif edir.",
+    "background": {
+      "az": "'İZZİ', insanların həyatını asanlaşdırmağa və peşəkar təcrübəyə dəyər əlavə etməyə inanan bir komanda tərəfindən yaradılmışdır. Platform, istifadəçilərə geniş bir mütəxəssis bazası təqdim edərək onların işlərini effektiv şəkildə həll etmələrinə kömək edir.",
+      "en": "'IZZI' was created by a team that believes in making people's lives easier and adding value to professional experience. The platform helps users solve their tasks effectively by providing a wide base of specialists.",
+      "ru": "'IZZI' была создана командой, которая верит в упрощение жизни людей и добавление ценности профессиональному опыту. Платформа помогает пользователям эффективно решать их задачи, предоставляя широкий выбор специалистов."
+    },
+    "objective": {
+      "az": "İZZİ-nin məqsədi istifadəsi asan, bütün cihazlarda əlçatan və sürətli onlayn platforma vasitəsilə insanlara məişət problemlərini həll etməyə kömək etməkdir. Startap insanlara məişət problemlərini ən qısa müddətdə və ən sərfəli qiymətlə həll edə biləcək uyğun icraçını seçməkdə kömək etməklə yanaşı, təmizlik, gözəllik, tədbirlərin təşkil edilməsi, usta xidmətləri və s. kimi bir sıra xidmətlər təklif edir.",
+      "en": "The aim of IZZI is to help people solve household problems through an easy-to-use, accessible, and fast online platform. The startup helps people find suitable executors to solve household problems in the shortest time and at the most affordable price, offering a range of services such as cleaning, beauty, event organization, handyman services, and more.",
+      "ru": "Цель IZZI – помочь людям решать бытовые проблемы через легкую в использовании, доступную и быструю онлайн-платформу. Стартап помогает людям находить подходящих исполнителей для решения бытовых проблем в кратчайшие сроки и по самым доступным ценам, предлагая широкий спектр услуг, таких как уборка, красота, организация мероприятий, услуги мастера и многое другое."
+    },
     "screen_img": "/images/izzi-web-screen.png",
     "screen_img_2": "/images/izzi-web-screen-2.png",
     "screen_img_3": "/images/izzi-web-screen-3.png",
@@ -41,11 +89,27 @@
   {
     "id": 4,
     "createdDate": "03.01.2024",
-    "title": "KARVAN-L",
-    "description": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etmək və sektorda lider mövqeyini gücləndirməkdir. Şirkət, müştərilərinə yüksək keyfiyyətli məhsullar təklif edərək onların ehtiyaclarını ən yaxşı şəkildə qarşılamağı hədəfləyir. ",
+    "title": {
+      "az": "KARVAN-L",
+      "en": "KARVAN-L",
+      "ru": "KARVAN-L"
+    },
+    "description": {
+      "az": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etmək və sektorda lider mövqeyini gücləndirməkdir. Şirkət, müştərilərinə yüksək keyfiyyətli məhsullar təklif edərək onların ehtiyaclarını ən yaxşı şəkildə qarşılamağı hədəfləyir.",
+      "en": "'KARVAN-L' company group aims to develop in the varnish and paint sector in Azerbaijan and strengthen its leadership position in the sector. The company aims to meet its customers' needs in the best possible way by offering high-quality products.",
+      "ru": "'KARVAN-L' – цель группы компаний – развиваться в секторе лаков и красок в Азербайджане и укреплять свои лидерские позиции в этом секторе. Компания стремится удовлетворить потребности своих клиентов, предлагая продукцию высокого качества."
+    },
     "cover_img": "/images/karvan-l.png",
-    "background": "'KARVAN-L' şirkətlər qrupu, Azərbaycanda fəaliyyət göstərən ən iri özəl istehsalat və ticarət müəssisələrindən biridir. Şirkət, 1993-cü ildə kiçik bir şirkət kimi fəaliyyətinə başlamışdır. 'KARVAN-L' şirkətlər qrupu, Azərbaycan-da lak və boya məhsullarının istehsalı və idxalı üzrə ixtisaslaşmış ilk şirkətdir və «Ярославские краски» şirkətinin ilk rəsmi distribyutoru olmuşdur.",
-    "objective": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etmək və sektorda lider mövqeyini gücləndirməkdir. Şirkət, müştərilərinə yüksək keyfiyyətli məhsullar təklif edərək onların ehtiyaclarını ən yaxşı şəkildə qarşılamağı hədəfləyir. ",
+    "background": {
+      "az": "'KARVAN-L' şirkətlər qrupu, Azərbaycanda fəaliyyət göstərən ən iri özəl istehsalat və ticarət müəssisələrindən biridir. Şirkət, 1993-cü ildə kiçik bir şirkət kimi fəaliyyətinə başlamışdır. 'KARVAN-L' şirkətlər qrupu, Azərbaycan-da lak və boya məhsullarının istehsalı və idxalı üzrə ixtisaslaşmış ilk şirkətdir və «Ярославские краски» şirkətinin ilk rəsmi distribyutoru olmuşdur.",
+      "en": "'KARVAN-L' company group is one of the largest private manufacturing and trading enterprises in Azerbaijan. The company started its operations in 1993 as a small company. 'KARVAN-L' was the first company in Azerbaijan to specialize in the production and import of varnish and paint products and was the first official distributor of the 'Yaroslavl Paints' company.",
+      "ru": "'KARVAN-L' – одна из крупнейших частных производственных и торговых компаний в Азербайджане. Компания начала свою деятельность в 1993 году как небольшая фирма. 'KARVAN-L' была первой компанией в Азербайджане, специализирующейся на производстве и импорте лакокрасочных изделий, и первой официальной дистрибьютор компании 'Ярославские краски'."
+    },
+    "objective": {
+      "az": "'KARVAN-L' şirkətlər qrupunun əsas məqsədi, Azərbaycan-da lak və boya sektorunda inkişaf etmək və sektorda lider mövqeyini gücləndirməkdir. Şirkət, müştərilərinə yüksək keyfiyyətli məhsullar təklif edərək onların ehtiyaclarını ən yaxşı şəkildə qarşılamağı hədəfləyir.",
+      "en": "'KARVAN-L' company group's main goal is to develop in the varnish and paint sector in Azerbaijan and strengthen its leadership position in the sector. The company aims to meet its customers' needs in the best possible way by offering high-quality products.",
+      "ru": "'KARVAN-L' – основная цель группы компаний – развиваться в секторе лаков и красок в Азербайджане и укреплять свои лидерские позиции в этом секторе. Компания стремится удовлетворить потребности своих клиентов, предлагая продукцию высокого качества."
+    },
     "screen_img": "/images/karvan-web-screen-2.png",
     "screen_img_2": "/images/karvan-web-screen.png",
     "screen_img_3": "/images/karvan-web-screen-3.png",
@@ -54,27 +118,59 @@
   {
     "id": 5,
     "createdDate": "04.01.2024",
-    "title": "Konsept.az",
-    "description": "Konsept.az xəbər saytıdır. Saytın məqsədi ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaqdır.",
+    "title": {
+      "az": "Konsept.az",
+      "en": "Konsept.az",
+      "ru": "Konsept.az"
+    },
+    "description": {
+      "az": "Konsept.az xəbər saytıdır. Saytın məqsədi ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaqdır.",
+      "en": "Konsept.az is a news website. Its purpose is to deliver the most important and interesting news happening in the country and abroad to a wide audience.",
+      "ru": "Konsept.az – это новостной веб-сайт. Его цель – донести самые важные и интересные новости, происходящие в стране и за границей, до широкой аудитории."
+    },
     "cover_img": "/images/konsept.png",
-    "background": "'Konsept.az', ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaq məqsədilə yaradılmış bir xəbər saytıdır. Konsept.az, geniş bir auditoriyaya çatmaq üçün çeşidli xəbər formatları və məzmun növləri təklif edir və oxucuların maraqlarına uyğun məqalələr və müzakirələrə yer verir.",
-     "objective": " Konsept.az-in əsas məqsədi, oxucularına ölkədə və dünyada baş verən ən aktual, mühüm və maraqlı hadisələri təqdim etməkdir. Sayt, obyektivlik, etik və səmərəlilik prinsiplərinə sadiq qalaraq, oxucularına güvənilir və ətraflı xəbərlər verməyə çalışır. Konsept.az oxuculara obyektiv, çoxsaylı və ən aktual xəbərləri təqdim edərək onların informasiya ehtiyacını qarşılayır.",
-     "screen_img": "/images/konsept-web-screen-2.png",
-     "screen_img_2": "/images/konsept-web-screen.png",
-     "screen_img_3": "/images/konsept-web-screen-3.png",
-     "screen_img_4": "/images/konsept-web-screen-4.png"
+    "background": {
+      "az": "'Konsept.az', ölkədə və xaricdə baş verən ən mühüm və maraqlı xəbərləri geniş auditoriyaya çatdırmaq məqsədilə yaradılmış bir xəbər saytıdır. Konsept.az, geniş bir auditoriyaya çatmaq üçün çeşidli xəbər formatları və məzmun növləri təklif edir və oxucuların maraqlarına uyğun məqalələr və müzakirələrə yer verir.",
+      "en": "'Konsept.az' is a news website created to deliver the most important and interesting news happening in the country and abroad to a wide audience. Konsept.az offers various news formats and content types to reach a broad audience and provides articles and discussions tailored to readers' interests.",
+      "ru": "'Konsept.az' – новостной сайт, созданный для того, чтобы донести самые важные и интересные новости, происходящие в стране и за границей, до широкой аудитории. Konsept.az предлагает различные форматы новостей и виды контента, чтобы охватить широкую аудиторию и предоставляет статьи и обсуждения, соответствующие интересам читателей."
+    },
+    "objective": {
+      "az": "Konsept.az-in əsas məqsədi, oxucularına ölkədə və dünyada baş verən ən aktual, mühüm və maraqlı hadisələri təqdim etməkdir. Sayt, obyektivlik, etik və səmərəlilik prinsiplərinə sadiq qalaraq, oxucularına güvənilir və ətraflı xəbərlər verməyə çalışır. Konsept.az oxuculara obyektiv, çoxsaylı və ən aktual xəbərləri təqdim edərək onların informasiya ehtiyacını qarşılayır.",
+      "en": "The main goal of Konsept.az is to provide readers with the most current, important, and interesting events happening in the country and around the world. The site aims to offer reliable and detailed news while adhering to principles of objectivity, ethics, and efficiency. Konsept.az meets readers' information needs by providing objective, diverse, and up-to-date news.",
+      "ru": "Основная цель Konsept.az – предоставить читателям наиболее актуальные, важные и интересные события, происходящие в стране и в мире. Сайт стремится предложить надежные и подробные новости, придерживаясь принципов объективности, этики и эффективности. Konsept.az удовлетворяет информационные потребности читателей, предоставляя объективные, разнообразные и актуальные новости."
+    },
+    "screen_img": "/images/konsept-web-screen-2.png",
+    "screen_img_2": "/images/konsept-web-screen.png",
+    "screen_img_3": "/images/konsept-web-screen-3.png",
+    "screen_img_4": "/images/konsept-web-screen-4.png"
   },
   {
     "id": 6,
     "createdDate": "04.01.2024",
-    "title": "Letsi",
-    "description": "Letsi - tələbələrin, siniflərin və müəllimlərin idarə olunması üçün bir platformadır.",
+    "title": {
+      "az": "Letsi",
+      "en": "Letsi",
+      "ru": "Letsi"
+    },
+    "description": {
+      "az": "Letsi - tələbələrin, siniflərin və müəllimlərin idarə olunması üçün bir platformadır.",
+      "en": "Letsi is a platform for managing students, classes, and teachers.",
+      "ru": "Letsi – это платформа для управления студентами, классами и учителями."
+    },
     "cover_img": "/images/letsi-logo.png",
-    "background": "Letsi, tələbələrin, siniflərin və müəllimlərin idarə olunması üçün yaradılmış bir platformadır. Letsi, təhsil müəssisələrinin idarə heyətinə, müəllimlərə və tələbələrə, onların təhsil və öyrənmə prosesini daha səmərəli və effektiv şəkildə idarə etmələrində kömək edir.",
-     "objective": " Letsi-nin əsas məqsədi, tələbələrin, siniflərin və müəllimlərin idarə olunmasını asanlaşdırmaq və effektivləşdirməkdir. Letsi, tələbələrin öyrənmə prosesini səmərəli və maraqlı hala gətirməyə kömək edir, müəllimlərə də dərsləri effektiv şəkildə planlaşdırma və idarə etmə imkanı verir. Bu sayədə, təhsil müəssisələri öyrənmə prosesini daha səmərəli şəkildə idarə edir və tələbələri daha yaxşı təhsil ilə təmin edir.",
-     "screen_img": "/images/letsi-web-screen-2.png",
-     "screen_img_2": "/images/letsi-web-screen.png",
-     "screen_img_3": "/images/letsi-web-screen-3.png",
-     "screen_img_4": "/images/letsi-web-screen-4.png"
+    "background": {
+      "az": "Letsi, tələbələrin, siniflərin və müəllimlərin idarə olunması üçün yaradılmış bir platformadır. Letsi, təhsil müəssisələrinin idarə heyətinə, müəllimlərə və tələbələrə, onların təhsil və öyrənmə prosesini daha səmərəli və effektiv şəkildə idarə etmələrində kömək edir.",
+      "en": "Letsi is a platform created for managing students, classes, and teachers. It helps educational institutions' management, teachers, and students manage their education and learning processes more efficiently and effectively.",
+      "ru": "Letsi – это платформа, созданная для управления студентами, классами и учителями. Она помогает управлению образовательных учреждений, учителям и студентам более эффективно и результативно управлять процессом обучения и учебными процессами."
+    },
+    "objective": {
+      "az": "Letsi-nin əsas məqsədi, tələbələrin, siniflərin və müəllimlərin idarə olunmasını asanlaşdırmaq və effektivləşdirməkdir. Letsi, tələbələrin öyrənmə prosesini səmərəli və maraqlı hala gətirməyə kömək edir, müəllimlərə də dərsləri effektiv şəkildə planlaşdırma və idarə etmə imkanı verir. Bu sayədə, təhsil müəssisələri öyrənmə prosesini daha səmərəli şəkildə idarə edir və tələbələri daha yaxşı təhsil ilə təmin edir.",
+      "en": "The main goal of Letsi is to simplify and improve the management of students, classes, and teachers. Letsi helps make the learning process more efficient and engaging for students, while also providing teachers with the tools to plan and manage lessons effectively. This helps educational institutions manage the learning process more efficiently and provide better education to students.",
+      "ru": "Основная цель Letsi – упростить и улучшить управление студентами, классами и учителями. Letsi помогает сделать учебный процесс более эффективным и увлекательным для студентов, а также предоставляет учителям инструменты для планирования и эффективного управления уроками. Это помогает образовательным учреждениям более эффективно управлять процессом обучения и предоставлять студентам лучшее образование."
+    },
+    "screen_img": "/images/letsi-web-screen-2.png",
+    "screen_img_2": "/images/letsi-web-screen.png",
+    "screen_img_3": "/images/letsi-web-screen-3.png",
+    "screen_img_4": "/images/letsi-web-screen-4.png"
   }
 ]
