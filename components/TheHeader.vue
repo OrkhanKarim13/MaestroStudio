@@ -60,7 +60,7 @@
       <!-- Custom language dropdown -->
       <div class="relative flex gap-4 uppercase text-black px-8 py-4">
         <div
-          class="cursor-pointer flex gap-2 md:border md:border-blue-500 md:rounded-full px-4 py-2"
+          class="cursor-pointer flex gap-2 md:border md:border-blue-500 md:rounded-full hover:scale-[1.03] px-4 py-2"
           @click="toggleDropdown"
         >
           {{ languages.find(lang => lang.code === selectedLanguage).label }} 

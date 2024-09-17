@@ -39,11 +39,11 @@ const links = [
       <div class="w-full bg-white md:rounded-[10px] grid  grid-cols-1  md:grid-cols-2 lg:gap-40">
         <div class=" p-3 lg:p-6 flex items-center">
           <ul class="flex flex-col items-start justify-center text-lg lg:text-2xl font-semibold">
-            <li v-for="link in links" :key="link.id" class="px-4 py-2 lg:px-8 text-[22px] lg:py-4 font-650">
+            <li v-for="link in links" :key="link.id" class=" py-4 lg:px-8 text-lg md:text-[22px] lg:py-4 font-650">
               <div class="text-left">{{ link[locale] }}</div>
             </li>
-            <button class="px-4 py-2 lg:px-8 lg:py-4 font-bold">
-              <a class="uppercase  text-blue-700 text-[22px] font-650 cursor-pointer" href="/services">{{
+            <button class="md:px-4 py-2 lg:px-8 lg:py-4 font-bold">
+              <a class="uppercase  text-blue-700 md:text-[22px] text-[20px] font-650 cursor-pointer" href="/services">{{
                 $t("see_more") }}</a>
             </button>
           </ul>
