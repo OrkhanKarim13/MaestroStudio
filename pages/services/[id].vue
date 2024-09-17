@@ -1,8 +1,8 @@
 <template>
     <div v-if="service" class="md:mx-9 md:mb-6 md:rounded-md">
         <div class="bg-[#0047FF] md:p-12 p-4 w-full  md:rounded-md">
-            <img class="md:rounded-md w-full h-[450px]  " :src="service?.cover_img" alt="image" />
-            <div class="flex flex-col gap-6 py-9">
+            <img class="md:rounded-md w-full md:h-[450px]  " :src="service?.cover_img" alt="image" />
+            <div class="flex flex-col gap-6 md:py-9 py-6">
                 <h3 data-aos="fade-up" class="text-white text-[40px] md:text-7xl md:leading-100">{{ service?.title[locale] }}</h3>
                 <div class="flex flex-col items-start justify-center gap-5">
                     <p class="text-white  text-xl">{{ service?.content[locale] }}</p>
