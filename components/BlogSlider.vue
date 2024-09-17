@@ -2,7 +2,7 @@
     <swiper class="mySwiper" space-between="20" :slidesPerView="1" :breakpoints="{
       '768': {
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 24,
       },
     }">
       <swiper-slide v-for="blog in blogs" :key="blog.id" class="w-full flex justify-center items-center">

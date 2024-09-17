@@ -1,7 +1,7 @@
 <template>
     <div class="grid grid-cols-1 md:grid-cols-2 md:mx-9 md:my-6  md:gap-6">
         <div class="bg-[#0047FF]  px-4 py-6 md:p-12 flex flex-col items-start justify-between  md:rounded-[10px]">
-            <div class="  text-white text-[64px] lg:text-[79px] font-750">{{ $t("project_support") }}
+            <div class="  text-white text-[54px] lg:text-[79px] md:font-750">{{ $t("project_support") }}
             </div>
             <div class="my-12 flex items-center justify-center ">
                 <img src="@/assets/images/arraow_icon.svg" alt="arrow">
