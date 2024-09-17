@@ -11,7 +11,6 @@
       default: true,
     },
   });
-
   const isDropdownOpen = ref(false);
 
   const languages = [
